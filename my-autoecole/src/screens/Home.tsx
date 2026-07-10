@@ -44,7 +44,7 @@ export function Home() {
             <GraduationCap size={24} />
           </span>
           <div className="min-w-0 flex-1">
-            <div className="font-semibold">Apprendre le cours</div>
+            <div className="font-semibold">Apprendre le cours !</div>
             <p className="mt-0.5 truncate text-[13px] text-white/85">
               {dataset.themes.length} fiches : règles, vitesses, priorités…
             </p>
