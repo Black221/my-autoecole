@@ -2,7 +2,7 @@
 import { useNavigate } from "react-router-dom";
 import { ChevronRight, GraduationCap } from "lucide-react";
 import { MODES } from "../domain/modes";
-import { MODE_ICON } from "../ui/modeIcons";
+import { MODE_ICON, MODE_ACCENT } from "../ui/modeIcons";
 import dataset from "../data";
 import { Hero } from "../ui/primitives";
 
@@ -69,7 +69,9 @@ export function Home() {
                 onClick={() => navigate(`/play/${m.kind}`)}
                 className="flex w-full items-center gap-4 rounded-[20px] bg-surface p-4 text-left shadow-soft transition-all duration-150 hover:-translate-y-0.5 hover:shadow-lift active:scale-[0.99]"
               >
-                <span className="grid size-12 flex-none place-items-center rounded-2xl bg-brand-light text-brand">
+                <span
+                  className={`grid size-12 flex-none place-items-center rounded-2xl ${MODE_ACCENT[m.kind]}`}
+                >
                   <Icon size={24} strokeWidth={2} />
                 </span>
                 <div className="min-w-0 flex-1">

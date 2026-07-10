@@ -66,16 +66,27 @@ export function Hero({
   title,
   subtitle,
   children,
+  onBack,
 }: {
   title: string;
   subtitle?: string;
   children?: ReactNode;
+  onBack?: () => void;
 }) {
   return (
-    <header className="relative overflow-hidden rounded-b-[28px] bg-linear-to-br from-brand to-brand-dark px-5 pb-6 pt-[calc(2.25rem+env(safe-area-inset-top))] text-white">
+    <header className="relative overflow-hidden rounded-b-[28px] bg-linear-to-br from-brand to-brand-dark px-5 pb-6 pt-[calc(1.25rem+env(safe-area-inset-top))] text-white">
       <div className="hero-pattern pointer-events-none absolute inset-0 opacity-60" />
       <SenegalStar className="pointer-events-none absolute -bottom-6 -right-4 h-40 w-40 text-sun opacity-10" />
       <div className="relative">
+        {onBack && (
+          <button
+            onClick={onBack}
+            aria-label="Retour"
+            className="mb-3 grid size-10 place-items-center rounded-full bg-white/15 text-white backdrop-blur-sm transition active:scale-95 hover:bg-white/25"
+          >
+            <ChevronLeft size={20} />
+          </button>
+        )}
         {subtitle && <div className="text-sm text-white/85">{subtitle}</div>}
         <h1 className="mt-0.5 text-[clamp(22px,6vw,30px)] font-bold leading-tight">
           {title}

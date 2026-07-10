@@ -104,3 +104,27 @@ body {
 .animate-fade-up {
   animation: fade-up 0.28s ease both;
 }
+
+/* Pop-up feedback (bottom sheet) */
+@keyframes sheet-up {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+@keyframes backdrop-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.animate-sheet-up {
+  animation: sheet-up 0.34s cubic-bezier(0.2, 0.9, 0.2, 1) both;
+}
+.animate-backdrop {
+  animation: backdrop-in 0.25s ease both;
+}

@@ -4,7 +4,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import { Dumbbell } from "lucide-react";
 import { quizParTheme, themeById } from "../data";
 import { themeIcon } from "../ui/themeIcons";
-import { Button, Hero, TopBar } from "../ui/primitives";
+import { Button, Hero } from "../ui/primitives";
 
 export function CoursDetail() {
   const { themeId = "" } = useParams();
@@ -22,8 +22,7 @@ export function CoursDetail() {
 
   return (
     <div className="flex flex-1 flex-col pb-[calc(2rem+env(safe-area-inset-bottom))]">
-      <TopBar onBack={() => navigate("/cours")} />
-      <Hero title={theme.titre}>
+      <Hero title={theme.titre} onBack={() => navigate("/cours")}>
         <div className="mt-3 flex items-start gap-3">
           <span className="grid size-11 flex-none place-items-center rounded-2xl bg-white/15">
             <Icon size={22} />

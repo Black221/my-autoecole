@@ -1,5 +1,5 @@
 /* Joue n'importe quelle Question : dispatch par format, gère la
-   sélection, la validation, le chrono, le feedback et l'enchaînement. */
+   sélection, le chrono, le feedback (pop-up) et l'enchaînement. */
 import { useEffect, useState } from "react";
 import { ArrowRight, CheckCircle2, Clock, Flag, X, XCircle } from "lucide-react";
 import { useSession } from "./sessionStore";
@@ -19,7 +19,6 @@ export function ChallengeRunner({ onExit }: { onExit: () => void }) {
 
   const timed = secondsPerQuestion != null && q?.format !== "flashcard";
 
-  // Réinitialise l'état + le chrono à chaque nouvelle question.
   useEffect(() => {
     setSelected([]);
     setRevealed(false);
@@ -28,14 +27,12 @@ export function ChallengeRunner({ onExit }: { onExit: () => void }) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [q?.id]);
 
-  // Décompte seconde par seconde (tant que non révélé).
   useEffect(() => {
     if (!timed || revealed || remaining == null || remaining <= 0) return;
     const t = setTimeout(() => setRemaining((r) => (r == null ? null : r - 1)), 1000);
     return () => clearTimeout(t);
   }, [remaining, revealed, timed]);
 
-  // Temps écoulé → validation automatique.
   useEffect(() => {
     if (timed && !revealed && remaining === 0) {
       const ev = commit(selected);
@@ -49,6 +46,7 @@ export function ChallengeRunner({ onExit }: { onExit: () => void }) {
 
   const total = questions.length;
   const isLast = index === total - 1;
+  const timeout = revealed && !ok && remaining === 0;
 
   const toggle = (id: string) => {
     if (revealed) return;
@@ -76,6 +74,8 @@ export function ChallengeRunner({ onExit }: { onExit: () => void }) {
     remaining == null
       ? ""
       : `${Math.floor(remaining / 60)}:${String(remaining % 60).padStart(2, "0")}`;
+
+  const isQcm = q.format !== "flashcard";
 
   return (
     <>
@@ -105,7 +105,7 @@ export function ChallengeRunner({ onExit }: { onExit: () => void }) {
         </div>
       </div>
 
-      <div className="flex-1 px-5 pb-6">
+      <div className={`flex-1 px-5 ${revealed && isQcm ? "pb-72" : "pb-6"}`}>
         <h2 className="my-4 text-lg font-semibold leading-snug">{q.prompt}</h2>
 
         <div className="animate-fade-up" key={q.id}>
@@ -117,45 +117,50 @@ export function ChallengeRunner({ onExit }: { onExit: () => void }) {
             <QcmText question={q} selected={selected} revealed={revealed} onToggle={toggle} />
           )}
         </div>
-
-        {revealed && q.explanation && (
-          <div
-            className={`mt-4 flex gap-2 rounded-[20px] p-4 text-sm leading-relaxed animate-fade-up ${
-              ok ? "bg-brand-light text-brand-dark" : "bg-danger-light text-[#8f1419]"
-            }`}
-          >
-            <span className="mt-0.5 flex-none">
-              {ok ? <CheckCircle2 size={18} /> : <XCircle size={18} />}
-            </span>
-            <div>
-              <b className="mb-0.5 block">
-                {ok ? "Bonne réponse" : remaining === 0 ? "Temps écoulé" : "Réponse incorrecte"}
-              </b>
-              {q.explanation}
-            </div>
-          </div>
-        )}
       </div>
 
-      {q.format !== "flashcard" && (
+      {/* Barre de validation (avant réponse) */}
+      {isQcm && !revealed && (
         <div className="sticky bottom-0 flex gap-3 bg-linear-to-t from-canvas from-70% to-transparent px-5 pb-[calc(1rem+env(safe-area-inset-bottom))] pt-4">
-          {!revealed ? (
-            <Button variant="primary" disabled={selected.length === 0} onClick={validate}>
-              {q.multiple ? "Valider ma réponse" : "Valider"}
-            </Button>
-          ) : (
-            <Button variant="primary" onClick={next}>
-              {isLast ? (
-                <>
-                  <Flag size={18} /> Voir le résultat
-                </>
-              ) : (
-                <>
-                  Question suivante <ArrowRight size={18} />
-                </>
+          <Button variant="primary" disabled={selected.length === 0} onClick={validate}>
+            {q.multiple ? "Valider ma réponse" : "Valider"}
+          </Button>
+        </div>
+      )}
+
+      {/* Pop-up de feedback (après réponse) */}
+      {isQcm && revealed && (
+        <div className="fixed inset-0 z-40">
+          <div className="animate-backdrop absolute inset-0 bg-black/25" />
+          <div className="animate-sheet-up absolute inset-x-0 bottom-0 mx-auto max-w-[720px]">
+            <div className="rounded-t-[24px] bg-surface p-5 pb-[calc(1.25rem+env(safe-area-inset-bottom))] shadow-[0_-8px_30px_rgba(15,27,20,0.16)]">
+              <div className="mx-auto mb-4 h-1.5 w-10 rounded-full bg-line" />
+              <div
+                className={`flex items-center gap-2 text-base font-bold ${
+                  ok ? "text-brand" : "text-danger"
+                }`}
+              >
+                {ok ? <CheckCircle2 size={22} /> : timeout ? <Clock size={22} /> : <XCircle size={22} />}
+                {ok ? "Bonne réponse" : timeout ? "Temps écoulé" : "Réponse incorrecte"}
+              </div>
+              {q.explanation && (
+                <p className="mt-2 max-h-[38vh] overflow-y-auto text-[15px] leading-relaxed text-ink-soft">
+                  {q.explanation}
+                </p>
               )}
-            </Button>
-          )}
+              <Button className="mt-4" variant="primary" onClick={next}>
+                {isLast ? (
+                  <>
+                    <Flag size={18} /> Voir le résultat
+                  </>
+                ) : (
+                  <>
+                    Question suivante <ArrowRight size={18} />
+                  </>
+                )}
+              </Button>
+            </div>
+          </div>
         </div>
       )}
     </>

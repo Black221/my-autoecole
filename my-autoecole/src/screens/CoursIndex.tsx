@@ -3,15 +3,18 @@ import { useNavigate } from "react-router-dom";
 import { ChevronRight } from "lucide-react";
 import { themes } from "../data";
 import { themeIcon } from "../ui/themeIcons";
-import { Hero, TopBar } from "../ui/primitives";
+import { Hero } from "../ui/primitives";
 
 export function CoursIndex() {
   const navigate = useNavigate();
 
   return (
     <div className="flex-1 pb-[calc(2rem+env(safe-area-inset-bottom))]">
-      <TopBar onBack={() => navigate("/")} />
-      <Hero title="Le cours" subtitle={`${themes.length} thèmes pour tout maîtriser`} />
+      <Hero
+        title="Le cours"
+        subtitle={`${themes.length} thèmes pour tout maîtriser`}
+        onBack={() => navigate("/")}
+      />
 
       <div className="space-y-3 px-5 pt-5">
         {themes.map((t, i) => {
