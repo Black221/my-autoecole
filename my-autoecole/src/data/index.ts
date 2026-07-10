@@ -89,6 +89,8 @@ export interface ThemeCours {
   titre: string;
   resume: string;
   regles: string[];
+  /** Ids de panneaux illustrant ce thème (référence vers `panneaux`). */
+  panneaux?: string[];
 }
 
 export interface QuestionCours {
@@ -106,6 +108,12 @@ export const quizCours: QuestionCours[] = coursData.quiz as QuestionCours[];
 
 export const themeById = (id: string): ThemeCours | undefined =>
   themes.find((t) => t.id === id);
+
+/** Panneaux illustrant un thème donné (résolus depuis leurs ids). */
+export const panneauxDuTheme = (theme: ThemeCours): Panneau[] =>
+  (theme.panneaux ?? [])
+    .map((id) => panneauById(id))
+    .filter((p): p is Panneau => Boolean(p));
 
 export const quizParTheme = (themeId: string): QuestionCours[] =>
   quizCours.filter((q) => q.theme === themeId);

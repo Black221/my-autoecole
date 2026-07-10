@@ -25,6 +25,7 @@
       "id": "vitesses",
       "titre": "Limites de vitesse",
       "resume": "Vitesses maximales selon le type de voie (contexte Sénégal).",
+      "panneaux": ["EB10", "EB20", "B14-50", "B14-90", "B30", "B33-50"],
       "regles": [
         "Entrée d'agglomération (ville) : 40 km/h au Sénégal (50 km/h selon la convention internationale).",
         "En agglomération, il est interdit de klaxonner sauf en cas de danger immédiat.",
@@ -39,6 +40,7 @@
       "id": "categories-panneaux",
       "titre": "Les catégories de panneaux",
       "resume": "Trois grandes familles de panneaux et distances d'annonce du danger.",
+      "panneaux": ["A1a", "B0", "C1a"],
       "regles": [
         "Il existe trois catégories de panneaux : les panneaux de danger (triangles), les panneaux de prescription absolue (ronds), les panneaux d'indication (carrés).",
         "On doit toujours respecter un panneau, même si on n'en comprend pas immédiatement la raison : il est placé là pour la sécurité de tous.",
@@ -50,6 +52,7 @@
       "id": "priorites",
       "titre": "Les priorités",
       "resume": "Les trois cas prioritaires, les cas de priorité à droite et les cas de perte de priorité.",
+      "panneaux": ["AB6", "AB2", "AB1", "AB3a", "AB4", "AB25", "AB7"],
       "regles": [
         "Les 3 cas prioritaires : (1) devant le panneau AB6 (route à caractère prioritaire) je suis prioritaire à toutes les intersections ; (2) priorité ponctuelle (je suis prioritaire à l'intersection annoncée seulement) ; (3) passage protégé (je suis prioritaire à la prochaine intersection).",
         "Devant l'AB6, je reste prioritaire jusqu'à ce que je croise : un stop, un J2 (cédez le passage), un feu rouge, un panneau AB7, un passage à niveau non gardé, ou un agent qui m'interdit de passer.",
@@ -91,6 +94,7 @@
       "id": "depassement",
       "titre": "Le dépassement",
       "resume": "Conditions, procédure et distances latérales pour dépasser.",
+      "panneaux": ["B3", "B3a", "B34"],
       "regles": [
         "Conditions pour dépasser : s'assurer que rien ne l'interdit (marquages horizontaux ou verticaux), que je ne suis pas sur le point d'être dépassé, et avoir une bonne visibilité pour se rabattre sans gêner l'usager venant en sens inverse.",
         "Procédure : signaler mon intention, déboîter et rouler à une vitesse supérieure, puis me rabattre à droite lorsque j'aperçois le véhicule dépassé dans mon rétroviseur intérieur.",
@@ -102,6 +106,7 @@
       "id": "tourner-gauche",
       "titre": "Tourner à gauche",
       "resume": "Disposition pour tourner à gauche selon le nombre de voies.",
+      "panneaux": ["B21-2", "B21c2", "B21e"],
       "regles": [
         "S'assurer que rien ne l'interdit (marquages horizontaux et verticaux) et que je ne suis pas sur le point d'être dépassé.",
         "Signaler mon intention et réduire la vitesse.",
@@ -114,6 +119,7 @@
       "id": "stationnement",
       "titre": "L'arrêt et le stationnement",
       "resume": "Stationnements interdits, gênant, abusif et les façons de stationner.",
+      "panneaux": ["B6a1", "B6d", "B6b4", "C1a", "C1c"],
       "regles": [
         "Stationnement interdit : aux abords d'une ligne continue, à proximité d'une intersection, d'un virage ou d'un sommet de côte, devant un garage, devant un panneau de signalisation, sur les ponts ou tunnels, et en double file.",
         "Stationnement gênant : à moins de 15 m de part et d'autre des arrêts de bus et sur un passage piéton.",
@@ -125,6 +131,7 @@
       "id": "balises",
       "titre": "Les balises",
       "resume": "Balises de virage, d'intersection et de guidage.",
+      "panneaux": ["J1", "J3", "J4-1", "J5", "J6", "J7"],
       "regles": [
         "J1 : balise de virage à chapeau de peinture rouge, placée dans les zones enneigées ou poussiéreuses.",
         "J2 : cédez le passage à gauche et à droite.",
@@ -140,6 +147,7 @@
       "id": "autoroute",
       "titre": "L'autoroute",
       "resume": "Reconnaissance de l'autoroute, bifurcations et jonctions.",
+      "panneaux": ["C207", "C208", "C26a"],
       "regles": [
         "On reconnaît l'autoroute : par le panneau qui la matérialise, par la voie séparative, par les glissières de protection, par le terre-plein central qui sépare les deux voies, et par la bande d'arrêt d'urgence (20 m de ligne et 6 m d'intervalle).",
         "Bifurcation : c'est la séparation de l'autoroute en 2 branches constituant chacune une autoroute.",
@@ -162,6 +170,7 @@
       "id": "accident",
       "titre": "Conduite à tenir en cas d'accident",
       "resume": "Protéger, alerter, secourir.",
+      "panneaux": ["CE1"],
       "regles": [
         "Protéger : se garer convenablement à 100 m, placer le triangle de présignalisation à plus de 30 m (visible à 100 m), couper le contact des véhicules accidentés et débrancher la batterie si besoin.",
         "Alerter : la police en agglomération et la gendarmerie en campagne, en donnant des renseignements précis.",
@@ -238,6 +247,7 @@
       "id": "creneau",
       "titre": "Le créneau (stationnement)",
       "resume": "Étapes pour réussir un créneau.",
+      "panneaux": ["C1a"],
       "regles": [
         "Avant la manœuvre : repérer un emplacement adapté et actionner le clignotant environ 20 m avant d'arriver au niveau de l'emplacement.",
         "Les usagers qui réalisent une manœuvre ne sont jamais prioritaires.",
