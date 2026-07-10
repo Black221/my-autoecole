@@ -1,0 +1,2329 @@
+{
+  "description": "Examens blancs - code de la route (format QCM photo A/B/C/D)",
+  "note": "Chaque question presente une scene et des sous-questions A/B/C/D ; answers liste les lettres correctes.",
+  "seriesCount": 12,
+  "series": [
+    {
+      "id": "B01",
+      "title": "Serie B1",
+      "cover": "tests/B01/B1 couv..jpg",
+      "questionCount": 25,
+      "questions": [
+        {
+          "n": 1,
+          "image": "tests/B01/B1-01.JPG",
+          "answers": [
+            "B",
+            "D"
+          ]
+        },
+        {
+          "n": 2,
+          "image": "tests/B01/B1-02.JPG",
+          "answers": [
+            "A",
+            "D"
+          ]
+        },
+        {
+          "n": 3,
+          "image": "tests/B01/B1-03.JPG",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 4,
+          "image": "tests/B01/B1-04.JPG",
+          "answers": [
+            "B",
+            "C"
+          ]
+        },
+        {
+          "n": 5,
+          "image": "tests/B01/B1-05.JPG",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 6,
+          "image": "tests/B01/B1-06.JPG",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 7,
+          "image": "tests/B01/B1-07.jpg",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 8,
+          "image": "tests/B01/B1-08.JPG",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 9,
+          "image": "tests/B01/B1-09.JPG",
+          "answers": [
+            "A",
+            "D"
+          ]
+        },
+        {
+          "n": 10,
+          "image": "tests/B01/B1-10.JPG",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 11,
+          "image": "tests/B01/B1-11.JPG",
+          "answers": [
+            "C"
+          ]
+        },
+        {
+          "n": 12,
+          "image": "tests/B01/B1-12.JPG",
+          "answers": [
+            "B",
+            "C"
+          ]
+        },
+        {
+          "n": 13,
+          "image": "tests/B01/B1-13.JPG",
+          "answers": [
+            "A",
+            "D"
+          ]
+        },
+        {
+          "n": 14,
+          "image": "tests/B01/B1-14.JPG",
+          "answers": [
+            "A",
+            "C"
+          ]
+        },
+        {
+          "n": 15,
+          "image": "tests/B01/B1-15.JPG",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 16,
+          "image": "tests/B01/B1-16.JPG",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 17,
+          "image": "tests/B01/B1-17.JPG",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 18,
+          "image": "tests/B01/B1-18.JPG",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 19,
+          "image": "tests/B01/B1-19.JPG",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 20,
+          "image": "tests/B01/B1-20.JPG",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 21,
+          "image": "tests/B01/B1-21.JPG",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 22,
+          "image": "tests/B01/B1-22.JPG",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 23,
+          "image": "tests/B01/B1-23.JPG",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 24,
+          "image": "tests/B01/B1-24.JPG",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 25,
+          "image": "tests/B01/B1-25.JPG",
+          "answers": [
+            "B"
+          ]
+        }
+      ],
+      "missingImages": []
+    },
+    {
+      "id": "B02",
+      "title": "Serie B2",
+      "cover": "tests/B02/B2 couv.jpg",
+      "questionCount": 25,
+      "questions": [
+        {
+          "n": 1,
+          "image": "tests/B02/B2-01.jpg",
+          "answers": [
+            "A",
+            "D"
+          ]
+        },
+        {
+          "n": 2,
+          "image": "tests/B02/B2-02.jpg",
+          "answers": [
+            "B",
+            "D"
+          ]
+        },
+        {
+          "n": 3,
+          "image": "tests/B02/B2-03.jpg",
+          "answers": [
+            "B",
+            "D"
+          ]
+        },
+        {
+          "n": 4,
+          "image": "tests/B02/B2-04.jpg",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 5,
+          "image": "tests/B02/B2-05.jpg",
+          "answers": [
+            "A",
+            "D"
+          ]
+        },
+        {
+          "n": 6,
+          "image": "tests/B02/B2-06.jpg",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 7,
+          "image": "tests/B02/B2-07.jpg",
+          "answers": [
+            "A",
+            "D"
+          ]
+        },
+        {
+          "n": 8,
+          "image": "tests/B02/B2-08.jpg",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 9,
+          "image": "tests/B02/B2-09.jpg",
+          "answers": [
+            "B",
+            "D"
+          ]
+        },
+        {
+          "n": 10,
+          "image": "tests/B02/B2-10.jpg",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 11,
+          "image": "tests/B02/B2-11.jpg",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 12,
+          "image": "tests/B02/B2-12.jpg",
+          "answers": [
+            "B",
+            "D"
+          ]
+        },
+        {
+          "n": 13,
+          "image": "tests/B02/B2-13.jpg",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 14,
+          "image": "tests/B02/B2-14.jpg",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 15,
+          "image": "tests/B02/B2-15.jpg",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 16,
+          "image": "tests/B02/B2-16.jpg",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 17,
+          "image": "tests/B02/B2-17.jpg",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 18,
+          "image": "tests/B02/B2-18.jpg",
+          "answers": [
+            "B",
+            "C"
+          ]
+        },
+        {
+          "n": 19,
+          "image": "tests/B02/B2-19.jpg",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 20,
+          "image": "tests/B02/B2-20.jpg",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 21,
+          "image": "tests/B02/B2-21.jpg",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 22,
+          "image": "tests/B02/B2-22.jpg",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 23,
+          "image": "tests/B02/B2-23.jpg",
+          "answers": [
+            "A",
+            "C"
+          ]
+        },
+        {
+          "n": 24,
+          "image": "tests/B02/B2-24.jpg",
+          "answers": [
+            "B",
+            "D"
+          ]
+        },
+        {
+          "n": 25,
+          "image": "tests/B02/B2-25.jpg",
+          "answers": [
+            "B",
+            "C"
+          ]
+        }
+      ],
+      "missingImages": []
+    },
+    {
+      "id": "B03",
+      "title": "Serie B3",
+      "cover": "tests/B03/B3 couv..jpg",
+      "questionCount": 25,
+      "questions": [
+        {
+          "n": 1,
+          "image": "tests/B03/B3-01.JPG",
+          "answers": [
+            "B",
+            "D"
+          ]
+        },
+        {
+          "n": 2,
+          "image": "tests/B03/B3-02.JPG",
+          "answers": [
+            "B",
+            "C"
+          ]
+        },
+        {
+          "n": 3,
+          "image": "tests/B03/B3-03.JPG",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 4,
+          "image": "tests/B03/B3-04.JPG",
+          "answers": [
+            "B",
+            "D"
+          ]
+        },
+        {
+          "n": 5,
+          "image": "tests/B03/B3-05.JPG",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 6,
+          "image": "tests/B03/B3-06.jpg",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 7,
+          "image": "tests/B03/B3-07.JPG",
+          "answers": [
+            "B",
+            "C"
+          ]
+        },
+        {
+          "n": 8,
+          "image": "tests/B03/B3-08.jpg",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 9,
+          "image": "tests/B03/B3-09.jpg",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 10,
+          "image": "tests/B03/B3-10.jpg",
+          "answers": [
+            "B",
+            "C"
+          ]
+        },
+        {
+          "n": 11,
+          "image": "tests/B03/B3-11.jpg",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 12,
+          "image": "tests/B03/B3-12.JPG",
+          "answers": [
+            "A",
+            "D"
+          ]
+        },
+        {
+          "n": 13,
+          "image": "tests/B03/B3-13.jpg",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 14,
+          "image": "tests/B03/B3-14.JPG",
+          "answers": [
+            "B",
+            "C"
+          ]
+        },
+        {
+          "n": 15,
+          "image": "tests/B03/B3-15.JPG",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 16,
+          "image": "tests/B03/B3-16.JPG",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 17,
+          "image": "tests/B03/B3-17.JPG",
+          "answers": [
+            "B",
+            "C"
+          ]
+        },
+        {
+          "n": 18,
+          "image": "tests/B03/B3-18.JPG",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 19,
+          "image": "tests/B03/B3-19.jpg",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 20,
+          "image": "tests/B03/B3-20.JPG",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 21,
+          "image": "tests/B03/B3-21.JPG",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 22,
+          "image": "tests/B03/B3-22.jpg",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 23,
+          "image": "tests/B03/B3-23.JPG",
+          "answers": [
+            "A",
+            "C"
+          ]
+        },
+        {
+          "n": 24,
+          "image": "tests/B03/B3-24.jpg",
+          "answers": [
+            "B",
+            "D"
+          ]
+        },
+        {
+          "n": 25,
+          "image": "tests/B03/B3-25.JPG",
+          "answers": [
+            "B"
+          ]
+        }
+      ],
+      "missingImages": []
+    },
+    {
+      "id": "B04",
+      "title": "Serie B4",
+      "cover": "tests/B04/B4 COUV..jpg",
+      "questionCount": 25,
+      "questions": [
+        {
+          "n": 1,
+          "image": "tests/B04/B4-01.JPG",
+          "answers": [
+            "B",
+            "D"
+          ]
+        },
+        {
+          "n": 2,
+          "image": "tests/B04/B4-02.JPG",
+          "answers": [
+            "A",
+            "D"
+          ]
+        },
+        {
+          "n": 3,
+          "image": "tests/B04/B4-03.JPG",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 4,
+          "image": "tests/B04/B4-04.JPG",
+          "answers": [
+            "A",
+            "D"
+          ]
+        },
+        {
+          "n": 5,
+          "image": "tests/B04/B4-05.JPG",
+          "answers": [
+            "A",
+            "C"
+          ]
+        },
+        {
+          "n": 6,
+          "image": "tests/B04/B4-06.JPG",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 7,
+          "image": "tests/B04/B4-07.JPG",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 8,
+          "image": "tests/B04/B4-08.JPG",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 9,
+          "image": "tests/B04/B4-09.JPG",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 10,
+          "image": "tests/B04/B4-10.JPG",
+          "answers": [
+            "B",
+            "C"
+          ]
+        },
+        {
+          "n": 11,
+          "image": "tests/B04/B4-11.JPG",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 12,
+          "image": "tests/B04/B4-12.JPG",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 13,
+          "image": "tests/B04/B4-13.JPG",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 14,
+          "image": "tests/B04/B4-14.JPG",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 15,
+          "image": "tests/B04/B4-15.JPG",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 16,
+          "image": "tests/B04/B4-16.JPG",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 17,
+          "image": "tests/B04/B4-17.JPG",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 18,
+          "image": "tests/B04/B4-18.JPG",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 19,
+          "image": "tests/B04/B4-19.JPG",
+          "answers": [
+            "B",
+            "C"
+          ]
+        },
+        {
+          "n": 20,
+          "image": "tests/B04/B4-20.JPG",
+          "answers": [
+            "A",
+            "D"
+          ]
+        },
+        {
+          "n": 21,
+          "image": "tests/B04/B4-21.JPG",
+          "answers": [
+            "C"
+          ]
+        },
+        {
+          "n": 22,
+          "image": "tests/B04/B4-22.JPG",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 23,
+          "image": "tests/B04/B4-23.JPG",
+          "answers": [
+            "B",
+            "C"
+          ]
+        },
+        {
+          "n": 24,
+          "image": "tests/B04/B4-24.JPG",
+          "answers": [
+            "B",
+            "D"
+          ]
+        },
+        {
+          "n": 25,
+          "image": "tests/B04/B4-25.JPG",
+          "answers": [
+            "B",
+            "C"
+          ]
+        }
+      ],
+      "missingImages": []
+    },
+    {
+      "id": "B05",
+      "title": "Serie B5",
+      "cover": "tests/B05/B5 Couv..jpg",
+      "questionCount": 25,
+      "questions": [
+        {
+          "n": 1,
+          "image": "tests/B05/B5-01.JPG",
+          "answers": [
+            "A",
+            "D"
+          ]
+        },
+        {
+          "n": 2,
+          "image": "tests/B05/B5-02.JPG",
+          "answers": [
+            "B",
+            "D"
+          ]
+        },
+        {
+          "n": 3,
+          "image": "tests/B05/B5-03.JPG",
+          "answers": [
+            "B",
+            "D"
+          ]
+        },
+        {
+          "n": 4,
+          "image": "tests/B05/B5-04.JPG",
+          "answers": [
+            "B",
+            "C"
+          ]
+        },
+        {
+          "n": 5,
+          "image": "tests/B05/B5-05.JPG",
+          "answers": [
+            "A",
+            "D"
+          ]
+        },
+        {
+          "n": 6,
+          "image": "tests/B05/B5-06.JPG",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 7,
+          "image": "tests/B05/B5-07.JPG",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 8,
+          "image": "tests/B05/B5-08.JPG",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 9,
+          "image": "tests/B05/B5-09.JPG",
+          "answers": [
+            "C"
+          ]
+        },
+        {
+          "n": 10,
+          "image": "tests/B05/B5-10.JPG",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 11,
+          "image": "tests/B05/B5-11.JPG",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 12,
+          "image": "tests/B05/B5-12.JPG",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 13,
+          "image": "tests/B05/B5-13.JPG",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 14,
+          "image": "tests/B05/B5-14.JPG",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 15,
+          "image": "tests/B05/B5-15.JPG",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 16,
+          "image": "tests/B05/B5-16.JPG",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 17,
+          "image": "tests/B05/B5-17.JPG",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 18,
+          "image": "tests/B05/B5-18.JPG",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 19,
+          "image": "tests/B05/B5-19.JPG",
+          "answers": [
+            "B",
+            "D"
+          ]
+        },
+        {
+          "n": 20,
+          "image": "tests/B05/B5-20.JPG",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 21,
+          "image": "tests/B05/B5-21.JPG",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 22,
+          "image": "tests/B05/B5-22.JPG",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 23,
+          "image": "tests/B05/B5-23.JPG",
+          "answers": [
+            "B",
+            "C"
+          ]
+        },
+        {
+          "n": 24,
+          "image": "tests/B05/B5-24.JPG",
+          "answers": [
+            "A",
+            "D"
+          ]
+        },
+        {
+          "n": 25,
+          "image": "tests/B05/B5-25.JPG",
+          "answers": [
+            "A",
+            "D"
+          ]
+        }
+      ],
+      "missingImages": []
+    },
+    {
+      "id": "B06",
+      "title": "Serie B6",
+      "cover": "tests/B06/B6 couv..jpg",
+      "questionCount": 25,
+      "questions": [
+        {
+          "n": 1,
+          "image": "tests/B06/B6-01.JPG",
+          "answers": [
+            "A",
+            "D"
+          ]
+        },
+        {
+          "n": 2,
+          "image": "tests/B06/B6-02.JPG",
+          "answers": [
+            "B",
+            "D"
+          ]
+        },
+        {
+          "n": 3,
+          "image": "tests/B06/B6-03.JPG",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 4,
+          "image": "tests/B06/B6-04.JPG",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 5,
+          "image": "tests/B06/B6-05.JPG",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 6,
+          "image": "tests/B06/B6-06.JPG",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 7,
+          "image": "tests/B06/B6-07.JPG",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 8,
+          "image": "tests/B06/B6-08.JPG",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 9,
+          "image": "tests/B06/B6-09.JPG",
+          "answers": [
+            "A",
+            "D"
+          ]
+        },
+        {
+          "n": 10,
+          "image": "tests/B06/B6-10.JPG",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 11,
+          "image": "tests/B06/B6-11.JPG",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 12,
+          "image": "tests/B06/B6-12.JPG",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 13,
+          "image": "tests/B06/B6-13.JPG",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 14,
+          "image": "tests/B06/B6-14.JPG",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 15,
+          "image": "tests/B06/B6-15.JPG",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 16,
+          "image": "tests/B06/B6-16.JPG",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 17,
+          "image": "tests/B06/B6-17.JPG",
+          "answers": [
+            "B",
+            "D"
+          ]
+        },
+        {
+          "n": 18,
+          "image": "tests/B06/B6-18.JPG",
+          "answers": [
+            "A",
+            "C"
+          ]
+        },
+        {
+          "n": 19,
+          "image": "tests/B06/B6-19.JPG",
+          "answers": [
+            "B",
+            "C"
+          ]
+        },
+        {
+          "n": 20,
+          "image": "tests/B06/B6-20.JPG",
+          "answers": [
+            "A",
+            "D"
+          ]
+        },
+        {
+          "n": 21,
+          "image": "tests/B06/B6-21.JPG",
+          "answers": [
+            "A",
+            "C"
+          ]
+        },
+        {
+          "n": 22,
+          "image": "tests/B06/B6-22.JPG",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 23,
+          "image": "tests/B06/B6-23.JPG",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 24,
+          "image": "tests/B06/B6-24.JPG",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 25,
+          "image": "tests/B06/B6-25.JPG",
+          "answers": [
+            "A",
+            "D"
+          ]
+        }
+      ],
+      "missingImages": []
+    },
+    {
+      "id": "B07",
+      "title": "Serie B7",
+      "cover": "tests/B07/B7 COUV.jpg",
+      "questionCount": 25,
+      "questions": [
+        {
+          "n": 1,
+          "image": "tests/B07/B7-01.jpg",
+          "answers": [
+            "A",
+            "D"
+          ]
+        },
+        {
+          "n": 2,
+          "image": "tests/B07/B7-02.jpg",
+          "answers": [
+            "B",
+            "D"
+          ]
+        },
+        {
+          "n": 3,
+          "image": "tests/B07/B7-03.jpg",
+          "answers": [
+            "B",
+            "D"
+          ]
+        },
+        {
+          "n": 4,
+          "image": "tests/B07/B7-04.jpg",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 5,
+          "image": "tests/B07/B7-05.jpg",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 6,
+          "image": "tests/B07/B7-06.jpg",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 7,
+          "image": "tests/B07/B7-07.jpg",
+          "answers": [
+            "B",
+            "D"
+          ]
+        },
+        {
+          "n": 8,
+          "image": "tests/B07/B7-08.jpg",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 9,
+          "image": "tests/B07/B7-09.jpg",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 10,
+          "image": "tests/B07/B7-10.jpg",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 11,
+          "image": "tests/B07/B7-11.jpg",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 12,
+          "image": "tests/B07/B7-12.jpg",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 13,
+          "image": "tests/B07/B7-13.jpg",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 14,
+          "image": "tests/B07/B7-14.jpg",
+          "answers": [
+            "B",
+            "C"
+          ]
+        },
+        {
+          "n": 15,
+          "image": "tests/B07/B7-15.jpg",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 16,
+          "image": "tests/B07/B7-16.jpg",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 17,
+          "image": "tests/B07/B7-17.jpg",
+          "answers": [
+            "B",
+            "C"
+          ]
+        },
+        {
+          "n": 18,
+          "image": "tests/B07/B7-18.jpg",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 19,
+          "image": "tests/B07/B7-19.jpg",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 20,
+          "image": "tests/B07/B7-20.jpg",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 21,
+          "image": "tests/B07/B7-21.jpg",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 22,
+          "image": "tests/B07/B7-22.jpg",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 23,
+          "image": "tests/B07/B7-23.jpg",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 24,
+          "image": "tests/B07/B7-24.jpg",
+          "answers": [
+            "A",
+            "D"
+          ]
+        },
+        {
+          "n": 25,
+          "image": "tests/B07/B7-25.jpg",
+          "answers": [
+            "A",
+            "C"
+          ]
+        }
+      ],
+      "missingImages": []
+    },
+    {
+      "id": "B08",
+      "title": "Serie B8",
+      "cover": "tests/B08/B8 Couv..jpg",
+      "questionCount": 25,
+      "questions": [
+        {
+          "n": 1,
+          "image": "tests/B08/B8-01.jpg",
+          "answers": [
+            "B",
+            "D"
+          ]
+        },
+        {
+          "n": 2,
+          "image": "tests/B08/B8-02.jpg",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 3,
+          "image": "tests/B08/B8-03.jpg",
+          "answers": [
+            "B",
+            "C"
+          ]
+        },
+        {
+          "n": 4,
+          "image": "tests/B08/B8-04.jpg",
+          "answers": [
+            "B",
+            "C"
+          ]
+        },
+        {
+          "n": 5,
+          "image": "tests/B08/B8-05.jpg",
+          "answers": [
+            "A",
+            "D"
+          ]
+        },
+        {
+          "n": 6,
+          "image": "tests/B08/B8-06.jpg",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 7,
+          "image": "tests/B08/B8-07.jpg",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 8,
+          "image": "tests/B08/B8-08.jpg",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 9,
+          "image": "tests/B08/B8-09.jpg",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 10,
+          "image": "tests/B08/B8-10.jpg",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 11,
+          "image": "tests/B08/B8-11.jpg",
+          "answers": [
+            "A",
+            "D"
+          ]
+        },
+        {
+          "n": 12,
+          "image": "tests/B08/B8-12.jpg",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 13,
+          "image": "tests/B08/B8-13.jpg",
+          "answers": [
+            "B",
+            "C"
+          ]
+        },
+        {
+          "n": 14,
+          "image": "tests/B08/B8-14.jpg",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 15,
+          "image": "tests/B08/B8-15.jpg",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 16,
+          "image": "tests/B08/B8-16.jpg",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 17,
+          "image": "tests/B08/B8-17.jpg",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 18,
+          "image": "tests/B08/B8-18.jpg",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 19,
+          "image": "tests/B08/B8-19.jpg",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 20,
+          "image": "tests/B08/B8-20.jpg",
+          "answers": [
+            "B",
+            "C"
+          ]
+        },
+        {
+          "n": 21,
+          "image": "tests/B08/B8-21.jpg",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 22,
+          "image": "tests/B08/B8-22.jpg",
+          "answers": [
+            "B",
+            "D"
+          ]
+        },
+        {
+          "n": 23,
+          "image": "tests/B08/B8-23.jpg",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 24,
+          "image": "tests/B08/B8-24.jpg",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 25,
+          "image": "tests/B08/B8-25.jpg",
+          "answers": [
+            "B"
+          ]
+        }
+      ],
+      "missingImages": []
+    },
+    {
+      "id": "B09",
+      "title": "Serie B9",
+      "cover": "tests/B09/B9 couv.jpg",
+      "questionCount": 25,
+      "questions": [
+        {
+          "n": 1,
+          "image": "tests/B09/B9-01.jpg",
+          "answers": [
+            "A",
+            "C"
+          ]
+        },
+        {
+          "n": 2,
+          "image": "tests/B09/B9-02.jpg",
+          "answers": [
+            "B",
+            "D"
+          ]
+        },
+        {
+          "n": 3,
+          "image": "tests/B09/B9-03.jpg",
+          "answers": [
+            "A",
+            "C"
+          ]
+        },
+        {
+          "n": 4,
+          "image": "tests/B09/B9-04.jpg",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 5,
+          "image": "tests/B09/B9-05.jpg",
+          "answers": [
+            "B",
+            "D"
+          ]
+        },
+        {
+          "n": 6,
+          "image": "tests/B09/B9-06.jpg",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 7,
+          "image": "tests/B09/B9-07.jpg",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 8,
+          "image": "tests/B09/B9-08.jpg",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 9,
+          "image": "tests/B09/B9-09.jpg",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 10,
+          "image": "tests/B09/B9-10.jpg",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 11,
+          "image": "tests/B09/B9-11.jpg",
+          "answers": [
+            "B",
+            "C"
+          ]
+        },
+        {
+          "n": 12,
+          "image": "tests/B09/B9-12.jpg",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 13,
+          "image": "tests/B09/B9-13.jpg",
+          "answers": [
+            "A",
+            "D"
+          ]
+        },
+        {
+          "n": 14,
+          "image": "tests/B09/B9-14.jpg",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 15,
+          "image": "tests/B09/B9-15.jpg",
+          "answers": [
+            "A",
+            "D"
+          ]
+        },
+        {
+          "n": 16,
+          "image": "tests/B09/B9-16.jpg",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 17,
+          "image": "tests/B09/B9-17.jpg",
+          "answers": [
+            "A",
+            "D"
+          ]
+        },
+        {
+          "n": 18,
+          "image": "tests/B09/B9-18.jpg",
+          "answers": [
+            "B",
+            "C"
+          ]
+        },
+        {
+          "n": 19,
+          "image": "tests/B09/B9-19.jpg",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 20,
+          "image": "tests/B09/B9-20.jpg",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 21,
+          "image": "tests/B09/B9-21.jpg",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 22,
+          "image": "tests/B09/B9-22.jpg",
+          "answers": [
+            "B",
+            "C"
+          ]
+        },
+        {
+          "n": 23,
+          "image": "tests/B09/B9-23.jpg",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 24,
+          "image": "tests/B09/B9-24.jpg",
+          "answers": [
+            "B",
+            "C"
+          ]
+        },
+        {
+          "n": 25,
+          "image": "tests/B09/B9-25.jpg",
+          "answers": [
+            "B"
+          ]
+        }
+      ],
+      "missingImages": []
+    },
+    {
+      "id": "B10",
+      "title": "Serie B10",
+      "cover": "tests/B10/B10 COUV.jpg",
+      "questionCount": 25,
+      "questions": [
+        {
+          "n": 1,
+          "image": "tests/B10/B10-01.jpg",
+          "answers": [
+            "A",
+            "D"
+          ]
+        },
+        {
+          "n": 2,
+          "image": "tests/B10/B10-02.jpg",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 3,
+          "image": "tests/B10/B10-03.jpg",
+          "answers": [
+            "B",
+            "D"
+          ]
+        },
+        {
+          "n": 4,
+          "image": "tests/B10/B10-04.jpg",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 5,
+          "image": "tests/B10/B10-05.jpg",
+          "answers": [
+            "B",
+            "C"
+          ]
+        },
+        {
+          "n": 6,
+          "image": "tests/B10/B10-06.jpg",
+          "answers": [
+            "B",
+            "C"
+          ]
+        },
+        {
+          "n": 7,
+          "image": "tests/B10/B10-07.jpg",
+          "answers": [
+            "A",
+            "D"
+          ]
+        },
+        {
+          "n": 8,
+          "image": "tests/B10/B10-08.jpg",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 9,
+          "image": "tests/B10/B10-09.jpg",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 10,
+          "image": "tests/B10/B10-10.jpg",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 11,
+          "image": "tests/B10/B10-11.jpg",
+          "answers": [
+            "B",
+            "C"
+          ]
+        },
+        {
+          "n": 12,
+          "image": "tests/B10/B10-12.jpg",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 13,
+          "image": "tests/B10/B10-13.jpg",
+          "answers": [
+            "B",
+            "C"
+          ]
+        },
+        {
+          "n": 14,
+          "image": "tests/B10/B10-14.jpg",
+          "answers": [
+            "B",
+            "D"
+          ]
+        },
+        {
+          "n": 15,
+          "image": "tests/B10/B10-15.jpg",
+          "answers": [
+            "B",
+            "C"
+          ]
+        },
+        {
+          "n": 16,
+          "image": "tests/B10/B10-16.jpg",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 17,
+          "image": "tests/B10/B10-17.jpg",
+          "answers": [
+            "B",
+            "D"
+          ]
+        },
+        {
+          "n": 18,
+          "image": "tests/B10/B10-18.jpg",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 19,
+          "image": "tests/B10/B10-19.jpg",
+          "answers": [
+            "B",
+            "C"
+          ]
+        },
+        {
+          "n": 20,
+          "image": "tests/B10/B10-20.jpg",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 21,
+          "image": "tests/B10/B10-21.jpg",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 22,
+          "image": "tests/B10/B10-22.jpg",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 23,
+          "image": "tests/B10/B10-23.jpg",
+          "answers": [
+            "B",
+            "C"
+          ]
+        },
+        {
+          "n": 24,
+          "image": "tests/B10/B10-24.jpg",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 25,
+          "image": "tests/B10/B10-25.jpg",
+          "answers": [
+            "B",
+            "D"
+          ]
+        }
+      ],
+      "missingImages": []
+    },
+    {
+      "id": "B11",
+      "title": "Serie B11",
+      "cover": "tests/B11/B11 COUV.jpg",
+      "questionCount": 25,
+      "questions": [
+        {
+          "n": 1,
+          "image": "tests/B11/B11-01.JPG",
+          "answers": [
+            "A",
+            "D"
+          ]
+        },
+        {
+          "n": 2,
+          "image": "tests/B11/B11-02.JPG",
+          "answers": [
+            "B",
+            "D"
+          ]
+        },
+        {
+          "n": 3,
+          "image": "tests/B11/B11-03.JPG",
+          "answers": [
+            "B",
+            "D"
+          ]
+        },
+        {
+          "n": 4,
+          "image": "tests/B11/B11-04.JPG",
+          "answers": [
+            "A",
+            "D"
+          ]
+        },
+        {
+          "n": 5,
+          "image": "tests/B11/B11-05.JPG",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 6,
+          "image": "tests/B11/B11-06.JPG",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 7,
+          "image": "tests/B11/B11-07.JPG",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 8,
+          "image": "tests/B11/B11-08.JPG",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 9,
+          "image": "tests/B11/B11-09.JPG",
+          "answers": [
+            "B",
+            "C"
+          ]
+        },
+        {
+          "n": 10,
+          "image": "tests/B11/B11-10.JPG",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 11,
+          "image": "tests/B11/B11-11.JPG",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 12,
+          "image": "tests/B11/B11-12.JPG",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 13,
+          "image": "tests/B11/B11-13.JPG",
+          "answers": [
+            "A",
+            "C"
+          ]
+        },
+        {
+          "n": 14,
+          "image": "tests/B11/B11-14.JPG",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 15,
+          "image": "tests/B11/B11-15.JPG",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 16,
+          "image": "tests/B11/B11-16.JPG",
+          "answers": [
+            "A",
+            "C"
+          ]
+        },
+        {
+          "n": 17,
+          "image": "tests/B11/B11-17.JPG",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 18,
+          "image": "tests/B11/B11-18.JPG",
+          "answers": [
+            "B",
+            "C"
+          ]
+        },
+        {
+          "n": 19,
+          "image": "tests/B11/B11-19.JPG",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 20,
+          "image": "tests/B11/B11-20.JPG",
+          "answers": [
+            "B",
+            "C"
+          ]
+        },
+        {
+          "n": 21,
+          "image": "tests/B11/B11-21.JPG",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 22,
+          "image": "tests/B11/B11-22.JPG",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 23,
+          "image": "tests/B11/B11-23.JPG",
+          "answers": [
+            "A",
+            "D"
+          ]
+        },
+        {
+          "n": 24,
+          "image": "tests/B11/B11-24.JPG",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 25,
+          "image": "tests/B11/B11-25.JPG",
+          "answers": [
+            "A"
+          ]
+        }
+      ],
+      "missingImages": []
+    },
+    {
+      "id": "B12",
+      "title": "Serie B12",
+      "cover": "tests/B12/B12 couv.jpg",
+      "questionCount": 25,
+      "questions": [
+        {
+          "n": 1,
+          "image": "tests/B12/B12-01.JPG",
+          "answers": [
+            "A",
+            "D"
+          ]
+        },
+        {
+          "n": 2,
+          "image": "tests/B12/B12-02.JPG",
+          "answers": [
+            "B",
+            "D"
+          ]
+        },
+        {
+          "n": 3,
+          "image": "tests/B12/B12-03.JPG",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 4,
+          "image": "tests/B12/B12-04.JPG",
+          "answers": [
+            "B",
+            "C"
+          ]
+        },
+        {
+          "n": 5,
+          "image": "tests/B12/B12-05.JPG",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 6,
+          "image": "tests/B12/B12-06.JPG",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 7,
+          "image": "tests/B12/B12-07.JPG",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 8,
+          "image": "tests/B12/B12-08.JPG",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 9,
+          "image": "tests/B12/B12-09.JPG",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 10,
+          "image": "tests/B12/B12-10.JPG",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 11,
+          "image": "tests/B12/B12-11.JPG",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 12,
+          "image": "tests/B12/B12-12.JPG",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 13,
+          "image": "tests/B12/B12-13.JPG",
+          "answers": [
+            "B",
+            "C"
+          ]
+        },
+        {
+          "n": 14,
+          "image": "tests/B12/B12-14.JPG",
+          "answers": [
+            "A",
+            "D"
+          ]
+        },
+        {
+          "n": 15,
+          "image": "tests/B12/B12-15.JPG",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 16,
+          "image": "tests/B12/B12-16.JPG",
+          "answers": [
+            "B",
+            "C"
+          ]
+        },
+        {
+          "n": 17,
+          "image": "tests/B12/B12-17.JPG",
+          "answers": [
+            "B",
+            "C"
+          ]
+        },
+        {
+          "n": 18,
+          "image": "tests/B12/B12-18.JPG",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 19,
+          "image": "tests/B12/B12-19.JPG",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 20,
+          "image": "tests/B12/B12-20.JPG",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 21,
+          "image": "tests/B12/B12-21.JPG",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 22,
+          "image": "tests/B12/B12-22.JPG",
+          "answers": [
+            "A"
+          ]
+        },
+        {
+          "n": 23,
+          "image": "tests/B12/B12-23.JPG",
+          "answers": [
+            "B"
+          ]
+        },
+        {
+          "n": 24,
+          "image": "tests/B12/B12-24.JPG",
+          "answers": [
+            "B",
+            "C"
+          ]
+        },
+        {
+          "n": 25,
+          "image": "tests/B12/B12-25.JPG",
+          "answers": [
+            "B"
+          ]
+        }
+      ],
+      "missingImages": []
+    }
+  ]
+}

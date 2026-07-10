@@ -1,0 +1,106 @@
+@import "tailwindcss";
+
+/* ============================================================
+   Genfac "Teranga" — thème Tailwind v4 (identité sénégalaise)
+   ============================================================ */
+@theme {
+  /* Palette (génère bg-brand, text-teranga, etc.) */
+  --color-brand: #00853f;
+  --color-brand-dark: #006b33;
+  --color-brand-light: #e6f5ec;
+  --color-sun: #fcd116;
+  --color-danger: #e31b23;
+  --color-danger-light: #fdecec;
+  --color-teranga: #e87722;
+  --color-teranga-light: #fff0e5;
+  --color-ink: #0f1b14;
+  --color-ink-soft: #3d4a41;
+  --color-muted: #6b7570;
+  --color-line: #e7eae7;
+  --color-surface: #ffffff;
+  --color-canvas: #f6f8f5;
+  --color-sand: #f4e5c2;
+
+  /* Typo */
+  --font-sans: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+  /* Rayons généreux */
+  --radius-xl2: 20px;
+  --radius-xl3: 24px;
+
+  /* Ombres douces et chaudes */
+  --shadow-soft: 0 6px 20px rgba(61, 42, 20, 0.08);
+  --shadow-lift: 0 14px 34px rgba(61, 42, 20, 0.14);
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background: var(--color-canvas);
+  color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+#root {
+  min-height: 100dvh;
+}
+
+/* ---- utilitaires composant (ce que Tailwind ne fait pas simplement) ---- */
+@layer components {
+  /* Motif étoilé subtil pour le hero */
+  .hero-pattern {
+    background-image: radial-gradient(
+      rgba(255, 255, 255, 0.14) 1px,
+      transparent 1.4px
+    );
+    background-size: 18px 18px;
+  }
+
+  /* Carte flashcard 3D */
+  .flip3d {
+    perspective: 1400px;
+  }
+  .flip3d-inner {
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.55s cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+  .flip3d-inner.flipped {
+    transform: rotateY(180deg);
+  }
+  .flip3d-face {
+    position: absolute;
+    inset: 0;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+  }
+  .flip3d-back {
+    transform: rotateY(180deg);
+  }
+
+  /* Anneau de score (conic-gradient) */
+  .score-ring {
+    background: conic-gradient(
+      var(--color-brand) var(--pct, 0%),
+      var(--color-line) 0
+    );
+  }
+}
+
+/* Animation d'apparition des questions */
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animate-fade-up {
+  animation: fade-up 0.28s ease both;
+}

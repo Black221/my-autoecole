@@ -1,0 +1,3552 @@
+{
+  "categories": [
+    {
+      "key": "danger",
+      "label": "Panneau de danger",
+      "count": 29
+    },
+    {
+      "key": "intersection",
+      "label": "Intersection et priorite",
+      "count": 9
+    },
+    {
+      "key": "interdiction",
+      "label": "Interdiction",
+      "count": 46
+    },
+    {
+      "key": "obligation",
+      "label": "Obligation",
+      "count": 18
+    },
+    {
+      "key": "zone",
+      "label": "Entree de zone",
+      "count": 10
+    },
+    {
+      "key": "fin",
+      "label": "Fin de prescription / sortie de zone",
+      "count": 27
+    },
+    {
+      "key": "indication",
+      "label": "Indication",
+      "count": 60
+    },
+    {
+      "key": "services",
+      "label": "Services (CE)",
+      "count": 6
+    },
+    {
+      "key": "localisation",
+      "label": "Localisation et bornes",
+      "count": 19
+    },
+    {
+      "key": "direction",
+      "label": "Signalisation directionnelle",
+      "count": 24
+    },
+    {
+      "key": "balise",
+      "label": "Balise",
+      "count": 14
+    },
+    {
+      "key": "passage_niveau",
+      "label": "Passage a niveau",
+      "count": 4
+    },
+    {
+      "key": "temporaire",
+      "label": "Signalisation temporaire / chantier",
+      "count": 24
+    }
+  ],
+  "count": 290,
+  "panneaux": [
+    {
+      "id": "A1a",
+      "code": "A1a",
+      "name": "Virage a droite",
+      "category": "danger",
+      "categoryLabel": "Panneau de danger",
+      "image": "panneaux/A1a.jpeg",
+      "source": {
+        "page": 7,
+        "index": 1
+      }
+    },
+    {
+      "id": "A1b",
+      "code": "A1b",
+      "name": "Virage a gauche",
+      "category": "danger",
+      "categoryLabel": "Panneau de danger",
+      "image": "panneaux/A1b.jpeg",
+      "source": {
+        "page": 7,
+        "index": 12
+      }
+    },
+    {
+      "id": "A1c",
+      "code": "A1c",
+      "name": "Succession de virages dont le premier est a droite",
+      "category": "danger",
+      "categoryLabel": "Panneau de danger",
+      "image": "panneaux/A1c.jpeg",
+      "source": {
+        "page": 7,
+        "index": 21
+      }
+    },
+    {
+      "id": "A1d",
+      "code": "A1d",
+      "name": "Succession de virages dont le premier est a gauche",
+      "category": "danger",
+      "categoryLabel": "Panneau de danger",
+      "image": "panneaux/A1d.jpeg",
+      "source": {
+        "page": 7,
+        "index": 22
+      }
+    },
+    {
+      "id": "A2a",
+      "code": "A2a",
+      "name": "Cassis ou dos-d'ane",
+      "category": "danger",
+      "categoryLabel": "Panneau de danger",
+      "image": "panneaux/A2a.jpeg",
+      "source": {
+        "page": 7,
+        "index": 23
+      }
+    },
+    {
+      "id": "A2b",
+      "code": "A2b",
+      "name": "Ralentisseur de type dos-d'ane",
+      "category": "danger",
+      "categoryLabel": "Panneau de danger",
+      "image": "panneaux/A2b.jpeg",
+      "source": {
+        "page": 7,
+        "index": 24
+      }
+    },
+    {
+      "id": "A3",
+      "code": "A3",
+      "name": "Chaussee retrecie",
+      "category": "danger",
+      "categoryLabel": "Panneau de danger",
+      "image": "panneaux/A3.jpeg",
+      "source": {
+        "page": 7,
+        "index": 25
+      }
+    },
+    {
+      "id": "A3a",
+      "code": "A3a",
+      "name": "Chaussee retrecie par la droite",
+      "category": "danger",
+      "categoryLabel": "Panneau de danger",
+      "image": "panneaux/A3a.jpeg",
+      "source": {
+        "page": 7,
+        "index": 26
+      }
+    },
+    {
+      "id": "A3b",
+      "code": "A3b",
+      "name": "Chaussee retrecie par la gauche",
+      "category": "danger",
+      "categoryLabel": "Panneau de danger",
+      "image": "panneaux/A3b.jpeg",
+      "source": {
+        "page": 7,
+        "index": 27
+      }
+    },
+    {
+      "id": "A4",
+      "code": "A4",
+      "name": "Chaussee particulierement glissante",
+      "category": "danger",
+      "categoryLabel": "Panneau de danger",
+      "image": "panneaux/A4.jpeg",
+      "source": {
+        "page": 7,
+        "index": 2
+      }
+    },
+    {
+      "id": "A6",
+      "code": "A6",
+      "name": "Pont mobile",
+      "category": "danger",
+      "categoryLabel": "Panneau de danger",
+      "image": "panneaux/A6.jpeg",
+      "source": {
+        "page": 7,
+        "index": 3
+      }
+    },
+    {
+      "id": "A7",
+      "code": "A7",
+      "name": "Passage a niveau muni de barrieres a fonctionnement manuel",
+      "category": "danger",
+      "categoryLabel": "Panneau de danger",
+      "image": "panneaux/A7.jpeg",
+      "source": {
+        "page": 7,
+        "index": 4
+      }
+    },
+    {
+      "id": "A8",
+      "code": "A8",
+      "name": "Passage a niveau sans barrieres ni demi-barrieres",
+      "category": "danger",
+      "categoryLabel": "Panneau de danger",
+      "image": "panneaux/A8.jpeg",
+      "source": {
+        "page": 7,
+        "index": 5
+      }
+    },
+    {
+      "id": "A9",
+      "code": "A9",
+      "name": "Traversee de voies de tramways",
+      "category": "danger",
+      "categoryLabel": "Panneau de danger",
+      "image": "panneaux/A9.jpeg",
+      "source": {
+        "page": 7,
+        "index": 6
+      }
+    },
+    {
+      "id": "A13a",
+      "code": "A13a",
+      "name": "Endroit frequente par les enfants",
+      "category": "danger",
+      "categoryLabel": "Panneau de danger",
+      "image": "panneaux/A13a.jpeg",
+      "source": {
+        "page": 7,
+        "index": 7
+      }
+    },
+    {
+      "id": "A13b",
+      "code": "A13b",
+      "name": "Passage pour pietons",
+      "category": "danger",
+      "categoryLabel": "Panneau de danger",
+      "image": "panneaux/A13b.jpeg",
+      "source": {
+        "page": 7,
+        "index": 8
+      }
+    },
+    {
+      "id": "A14",
+      "code": "A14",
+      "name": "Autres dangers",
+      "category": "danger",
+      "categoryLabel": "Panneau de danger",
+      "image": "panneaux/A14.jpeg",
+      "source": {
+        "page": 7,
+        "index": 9
+      }
+    },
+    {
+      "id": "A15a1",
+      "code": "A15a1",
+      "name": "Passage d'animaux domestiques",
+      "category": "danger",
+      "categoryLabel": "Panneau de danger",
+      "image": "panneaux/A15a1.jpeg",
+      "source": {
+        "page": 7,
+        "index": 10
+      }
+    },
+    {
+      "id": "A15a2",
+      "code": "A15a2",
+      "name": "Passage d'animaux domestiques",
+      "category": "danger",
+      "categoryLabel": "Panneau de danger",
+      "image": "panneaux/A15a2.jpeg",
+      "source": {
+        "page": 7,
+        "index": 11
+      }
+    },
+    {
+      "id": "A15b",
+      "code": "A15b",
+      "name": "Passage d'animaux sauvages",
+      "category": "danger",
+      "categoryLabel": "Panneau de danger",
+      "image": "panneaux/A15b.jpeg",
+      "source": {
+        "page": 7,
+        "index": 13
+      }
+    },
+    {
+      "id": "A15c",
+      "code": "A15c",
+      "name": "Passage de cavaliers",
+      "category": "danger",
+      "categoryLabel": "Panneau de danger",
+      "image": "panneaux/A15c.jpeg",
+      "source": {
+        "page": 7,
+        "index": 14
+      }
+    },
+    {
+      "id": "A16",
+      "code": "A16",
+      "name": "Descente dangereuse",
+      "category": "danger",
+      "categoryLabel": "Panneau de danger",
+      "image": "panneaux/A16.jpeg",
+      "source": {
+        "page": 7,
+        "index": 15
+      }
+    },
+    {
+      "id": "A17",
+      "code": "A17",
+      "name": "Annonce de feux tricolores",
+      "category": "danger",
+      "categoryLabel": "Panneau de danger",
+      "image": "panneaux/A17.jpeg",
+      "source": {
+        "page": 7,
+        "index": 16
+      }
+    },
+    {
+      "id": "A18",
+      "code": "A18",
+      "name": "Circulation dans les deux sens",
+      "category": "danger",
+      "categoryLabel": "Panneau de danger",
+      "image": "panneaux/A18.jpeg",
+      "source": {
+        "page": 7,
+        "index": 17
+      }
+    },
+    {
+      "id": "A19",
+      "code": "A19",
+      "name": "Risque de chute de pierres",
+      "category": "danger",
+      "categoryLabel": "Panneau de danger",
+      "image": "panneaux/A19.jpeg",
+      "source": {
+        "page": 7,
+        "index": 18
+      }
+    },
+    {
+      "id": "A20",
+      "code": "A20",
+      "name": "Debouche sur un quai ou une berge",
+      "category": "danger",
+      "categoryLabel": "Panneau de danger",
+      "image": "panneaux/A20.jpeg",
+      "source": {
+        "page": 7,
+        "index": 19
+      }
+    },
+    {
+      "id": "A21",
+      "code": "A21",
+      "name": "Debouche de cyclistes venant de droite ou de gauche",
+      "category": "danger",
+      "categoryLabel": "Panneau de danger",
+      "image": "panneaux/A21.jpeg",
+      "source": {
+        "page": 7,
+        "index": 20
+      }
+    },
+    {
+      "id": "A23",
+      "code": "A23",
+      "name": "Traversee d'une aire de danger aerien",
+      "category": "danger",
+      "categoryLabel": "Panneau de danger",
+      "image": "panneaux/A23.jpeg",
+      "source": {
+        "page": 8,
+        "index": 1
+      }
+    },
+    {
+      "id": "A24",
+      "code": "A24",
+      "name": "Vent lateral",
+      "category": "danger",
+      "categoryLabel": "Panneau de danger",
+      "image": "panneaux/A24.jpeg",
+      "source": {
+        "page": 8,
+        "index": 4
+      }
+    },
+    {
+      "id": "AB1",
+      "code": "AB1",
+      "name": "Ceder le passage a la ou aux routes situees a droite",
+      "category": "intersection",
+      "categoryLabel": "Intersection et priorite",
+      "image": "panneaux/AB1.jpeg",
+      "source": {
+        "page": 8,
+        "index": 5
+      }
+    },
+    {
+      "id": "AB2",
+      "code": "AB2",
+      "name": "Intersection avec une route sans caractere prioritaire",
+      "category": "intersection",
+      "categoryLabel": "Intersection et priorite",
+      "image": "panneaux/AB2.jpeg",
+      "source": {
+        "page": 8,
+        "index": 6
+      }
+    },
+    {
+      "id": "AB3a",
+      "code": "AB3a",
+      "name": "Cedez le passage a l'intersection (signal de position)",
+      "category": "intersection",
+      "categoryLabel": "Intersection et priorite",
+      "image": "panneaux/AB3a.jpeg",
+      "source": {
+        "page": 8,
+        "index": 7
+      }
+    },
+    {
+      "id": "AB3b",
+      "code": "AB3b",
+      "name": "Cedez le passage a l'intersection (signal avance)",
+      "category": "intersection",
+      "categoryLabel": "Intersection et priorite",
+      "image": "panneaux/AB3b.jpeg",
+      "source": {
+        "page": 8,
+        "index": 8
+      }
+    },
+    {
+      "id": "AB4",
+      "code": "AB4",
+      "name": "STOP - Arret a l'intersection (signal de position)",
+      "category": "intersection",
+      "categoryLabel": "Intersection et priorite",
+      "image": "panneaux/AB4.jpeg",
+      "source": {
+        "page": 8,
+        "index": 9
+      }
+    },
+    {
+      "id": "AB5",
+      "code": "AB5",
+      "name": "Arret a l'intersection (signal avance)",
+      "category": "intersection",
+      "categoryLabel": "Intersection et priorite",
+      "image": "panneaux/AB5.jpeg",
+      "source": {
+        "page": 8,
+        "index": 10
+      }
+    },
+    {
+      "id": "AB6",
+      "code": "AB6",
+      "name": "Caractere prioritaire d'une route",
+      "category": "intersection",
+      "categoryLabel": "Intersection et priorite",
+      "image": "panneaux/AB6.jpeg",
+      "source": {
+        "page": 8,
+        "index": 11
+      }
+    },
+    {
+      "id": "AB7",
+      "code": "AB7",
+      "name": "Fin du caractere prioritaire d'une route",
+      "category": "intersection",
+      "categoryLabel": "Intersection et priorite",
+      "image": "panneaux/AB7.jpeg",
+      "source": {
+        "page": 8,
+        "index": 2
+      }
+    },
+    {
+      "id": "AB25",
+      "code": "AB25",
+      "name": "Carrefour a sens giratoire",
+      "category": "intersection",
+      "categoryLabel": "Intersection et priorite",
+      "image": "panneaux/AB25.jpeg",
+      "source": {
+        "page": 8,
+        "index": 3
+      }
+    },
+    {
+      "id": "B0",
+      "code": "B0",
+      "name": "Circulation interdite a tout vehicule dans les deux sens",
+      "category": "interdiction",
+      "categoryLabel": "Interdiction",
+      "image": "panneaux/B0.jpeg",
+      "source": {
+        "page": 9,
+        "index": 1
+      }
+    },
+    {
+      "id": "B1",
+      "code": "B1",
+      "name": "Sens interdit a tout vehicule",
+      "category": "interdiction",
+      "categoryLabel": "Interdiction",
+      "image": "panneaux/B1.jpeg",
+      "source": {
+        "page": 9,
+        "index": 12
+      }
+    },
+    {
+      "id": "B2a",
+      "code": "B2a",
+      "name": "Interdiction de tourner a gauche a la prochaine intersection",
+      "category": "interdiction",
+      "categoryLabel": "Interdiction",
+      "image": "panneaux/B2a.jpeg",
+      "source": {
+        "page": 9,
+        "index": 17
+      }
+    },
+    {
+      "id": "B2b",
+      "code": "B2b",
+      "name": "Interdiction de tourner a droite a la prochaine intersection",
+      "category": "interdiction",
+      "categoryLabel": "Interdiction",
+      "image": "panneaux/B2b.jpeg",
+      "source": {
+        "page": 9,
+        "index": 18
+      }
+    },
+    {
+      "id": "B2c",
+      "code": "B2c",
+      "name": "Interdiction de faire demi-tour",
+      "category": "interdiction",
+      "categoryLabel": "Interdiction",
+      "image": "panneaux/B2c.jpeg",
+      "source": {
+        "page": 9,
+        "index": 19
+      }
+    },
+    {
+      "id": "B3",
+      "code": "B3",
+      "name": "Interdiction de depasser",
+      "category": "interdiction",
+      "categoryLabel": "Interdiction",
+      "image": "panneaux/B3.jpeg",
+      "source": {
+        "page": 9,
+        "index": 20
+      }
+    },
+    {
+      "id": "B3a",
+      "code": "B3a",
+      "name": "Interdiction de depasser pour les vehicules de plus de 3,5 t",
+      "category": "interdiction",
+      "categoryLabel": "Interdiction",
+      "image": "panneaux/B3a.jpeg",
+      "source": {
+        "page": 9,
+        "index": 21
+      }
+    },
+    {
+      "id": "B4",
+      "code": "B4",
+      "name": "Arret au poste de douane",
+      "category": "interdiction",
+      "categoryLabel": "Interdiction",
+      "image": "panneaux/B4.jpeg",
+      "source": {
+        "page": 9,
+        "index": 22
+      }
+    },
+    {
+      "id": "B5a",
+      "code": "B5a",
+      "name": "Arret au poste de gendarmerie",
+      "category": "interdiction",
+      "categoryLabel": "Interdiction",
+      "image": "panneaux/B5a.jpeg",
+      "source": {
+        "page": 9,
+        "index": 23
+      }
+    },
+    {
+      "id": "B5b",
+      "code": "B5b",
+      "name": "Arret au poste de police",
+      "category": "interdiction",
+      "categoryLabel": "Interdiction",
+      "image": "panneaux/B5b.jpeg",
+      "source": {
+        "page": 9,
+        "index": 2
+      }
+    },
+    {
+      "id": "B5c",
+      "code": "B5c",
+      "name": "Arret au poste de peage",
+      "category": "interdiction",
+      "categoryLabel": "Interdiction",
+      "image": "panneaux/B5c.jpeg",
+      "source": {
+        "page": 9,
+        "index": 3
+      }
+    },
+    {
+      "id": "B6a1",
+      "code": "B6a1",
+      "name": "Stationnement interdit",
+      "category": "interdiction",
+      "categoryLabel": "Interdiction",
+      "image": "panneaux/B6a1.jpeg",
+      "source": {
+        "page": 9,
+        "index": 4
+      }
+    },
+    {
+      "id": "B6a2",
+      "code": "B6a2",
+      "name": "Stationnement interdit du 1er au 15 du mois",
+      "category": "interdiction",
+      "categoryLabel": "Interdiction",
+      "image": "panneaux/B6a2.jpeg",
+      "source": {
+        "page": 9,
+        "index": 5
+      }
+    },
+    {
+      "id": "B6a3",
+      "code": "B6a3",
+      "name": "Stationnement interdit du 16 a la fin du mois",
+      "category": "interdiction",
+      "categoryLabel": "Interdiction",
+      "image": "panneaux/B6a3.jpeg",
+      "source": {
+        "page": 9,
+        "index": 6
+      }
+    },
+    {
+      "id": "B6a3-2",
+      "code": "B6a3",
+      "name": "Stationnement interdit du 16 a la fin du mois",
+      "category": "interdiction",
+      "categoryLabel": "Interdiction",
+      "image": "panneaux/B6a3-2.jpeg",
+      "source": {
+        "page": 9,
+        "index": 6
+      }
+    },
+    {
+      "id": "B6b1",
+      "code": "B6b1",
+      "name": "Entree de zone a stationnement interdit",
+      "category": "zone",
+      "categoryLabel": "Entree de zone",
+      "image": "panneaux/B6b1.jpeg",
+      "source": {
+        "page": 9,
+        "index": 7
+      }
+    },
+    {
+      "id": "B6b2",
+      "code": "B6b2",
+      "name": "Entree de zone a stationnement unilateral a alternance semi-mensuelle",
+      "category": "zone",
+      "categoryLabel": "Entree de zone",
+      "image": "panneaux/B6b2.jpeg",
+      "source": {
+        "page": 9,
+        "index": 8
+      }
+    },
+    {
+      "id": "B6b3",
+      "code": "B6b3",
+      "name": "Entree de zone a stationnement de duree limitee (disque)",
+      "category": "zone",
+      "categoryLabel": "Entree de zone",
+      "image": "panneaux/B6b3.jpeg",
+      "source": {
+        "page": 9,
+        "index": 9
+      }
+    },
+    {
+      "id": "B6b3-ancien",
+      "code": "B6b3-ancien",
+      "name": "Entree de zone a stationnement de duree limitee 1h30 (disque)",
+      "category": "zone",
+      "categoryLabel": "Entree de zone",
+      "image": "panneaux/B6b3-ancien.jpeg",
+      "source": {
+        "page": 9,
+        "index": 10
+      }
+    },
+    {
+      "id": "B6b4",
+      "code": "B6b4",
+      "name": "Entree de zone a stationnement payant",
+      "category": "zone",
+      "categoryLabel": "Entree de zone",
+      "image": "panneaux/B6b4.jpeg",
+      "source": {
+        "page": 9,
+        "index": 11
+      }
+    },
+    {
+      "id": "B6b5",
+      "code": "B6b5",
+      "name": "Entree de zone a stationnement unilateral et duree limitee",
+      "category": "zone",
+      "categoryLabel": "Entree de zone",
+      "image": "panneaux/B6b5.jpeg",
+      "source": {
+        "page": 9,
+        "index": 13
+      }
+    },
+    {
+      "id": "B6b5-ancien",
+      "code": "B6b5-ancien",
+      "name": "Entree de zone a stationnement unilateral et duree limitee 1h30",
+      "category": "zone",
+      "categoryLabel": "Entree de zone",
+      "image": "panneaux/B6b5-ancien.jpeg",
+      "source": {
+        "page": 9,
+        "index": 14
+      }
+    },
+    {
+      "id": "B6d",
+      "code": "B6d",
+      "name": "Arret et stationnement interdits",
+      "category": "interdiction",
+      "categoryLabel": "Interdiction",
+      "image": "panneaux/B6d.jpeg",
+      "source": {
+        "page": 9,
+        "index": 15
+      }
+    },
+    {
+      "id": "B7a",
+      "code": "B7a",
+      "name": "Acces interdit aux vehicules a moteur sauf cyclomoteurs",
+      "category": "interdiction",
+      "categoryLabel": "Interdiction",
+      "image": "panneaux/B7a.jpeg",
+      "source": {
+        "page": 9,
+        "index": 16
+      }
+    },
+    {
+      "id": "B7b",
+      "code": "B7b",
+      "name": "Acces interdit a tous les vehicules a moteur",
+      "category": "interdiction",
+      "categoryLabel": "Interdiction",
+      "image": "panneaux/B7b.jpeg",
+      "source": {
+        "page": 10,
+        "index": 1
+      }
+    },
+    {
+      "id": "B8",
+      "code": "B8",
+      "name": "Acces interdit aux vehicules de transport de marchandises",
+      "category": "interdiction",
+      "categoryLabel": "Interdiction",
+      "image": "panneaux/B8.jpeg",
+      "source": {
+        "page": 10,
+        "index": 12
+      }
+    },
+    {
+      "id": "B9a",
+      "code": "B9a",
+      "name": "Acces interdit aux pietons",
+      "category": "interdiction",
+      "categoryLabel": "Interdiction",
+      "image": "panneaux/B9a.jpeg",
+      "source": {
+        "page": 10,
+        "index": 18
+      }
+    },
+    {
+      "id": "B9b",
+      "code": "B9b",
+      "name": "Acces interdit aux cycles",
+      "category": "interdiction",
+      "categoryLabel": "Interdiction",
+      "image": "panneaux/B9b.jpeg",
+      "source": {
+        "page": 10,
+        "index": 19
+      }
+    },
+    {
+      "id": "B9c",
+      "code": "B9c",
+      "name": "Acces interdit aux vehicules a traction animale",
+      "category": "interdiction",
+      "categoryLabel": "Interdiction",
+      "image": "panneaux/B9c.jpeg",
+      "source": {
+        "page": 10,
+        "index": 20
+      }
+    },
+    {
+      "id": "B9d",
+      "code": "B9d",
+      "name": "Acces interdit aux vehicules agricoles a moteur",
+      "category": "interdiction",
+      "categoryLabel": "Interdiction",
+      "image": "panneaux/B9d.jpeg",
+      "source": {
+        "page": 10,
+        "index": 21
+      }
+    },
+    {
+      "id": "B9e",
+      "code": "B9e",
+      "name": "Acces interdit aux voitures a bras",
+      "category": "interdiction",
+      "categoryLabel": "Interdiction",
+      "image": "panneaux/B9e.jpeg",
+      "source": {
+        "page": 10,
+        "index": 22
+      }
+    },
+    {
+      "id": "B9f",
+      "code": "B9f",
+      "name": "Acces interdit aux vehicules de transport en commun de personnes",
+      "category": "interdiction",
+      "categoryLabel": "Interdiction",
+      "image": "panneaux/B9f.jpeg",
+      "source": {
+        "page": 10,
+        "index": 23
+      }
+    },
+    {
+      "id": "B9g",
+      "code": "B9g",
+      "name": "Acces interdit aux cyclomoteurs",
+      "category": "interdiction",
+      "categoryLabel": "Interdiction",
+      "image": "panneaux/B9g.jpeg",
+      "source": {
+        "page": 10,
+        "index": 24
+      }
+    },
+    {
+      "id": "B9h",
+      "code": "B9h",
+      "name": "Acces interdit aux motocyclettes",
+      "category": "interdiction",
+      "categoryLabel": "Interdiction",
+      "image": "panneaux/B9h.jpeg",
+      "source": {
+        "page": 10,
+        "index": 2
+      }
+    },
+    {
+      "id": "B9i",
+      "code": "B9i",
+      "name": "Acces interdit aux vehicules avec caravane ou remorque de plus de 250 kg",
+      "category": "interdiction",
+      "categoryLabel": "Interdiction",
+      "image": "panneaux/B9i.jpeg",
+      "source": {
+        "page": 10,
+        "index": 3
+      }
+    },
+    {
+      "id": "B10a",
+      "code": "B10a",
+      "name": "Acces interdit aux vehicules trop longs",
+      "category": "interdiction",
+      "categoryLabel": "Interdiction",
+      "image": "panneaux/B10a.jpeg",
+      "source": {
+        "page": 10,
+        "index": 4
+      }
+    },
+    {
+      "id": "B11",
+      "code": "B11",
+      "name": "Acces interdit aux vehicules trop larges",
+      "category": "interdiction",
+      "categoryLabel": "Interdiction",
+      "image": "panneaux/B11.jpeg",
+      "source": {
+        "page": 10,
+        "index": 5
+      }
+    },
+    {
+      "id": "B12",
+      "code": "B12",
+      "name": "Acces interdit aux vehicules trop hauts",
+      "category": "interdiction",
+      "categoryLabel": "Interdiction",
+      "image": "panneaux/B12.jpeg",
+      "source": {
+        "page": 10,
+        "index": 6
+      }
+    },
+    {
+      "id": "B13",
+      "code": "B13",
+      "name": "Acces interdit aux vehicules dont le PTAC excede le nombre indique",
+      "category": "interdiction",
+      "categoryLabel": "Interdiction",
+      "image": "panneaux/B13.jpeg",
+      "source": {
+        "page": 10,
+        "index": 7
+      }
+    },
+    {
+      "id": "B13a",
+      "code": "B13a",
+      "name": "Acces interdit aux vehicules trop lourds par essieu",
+      "category": "interdiction",
+      "categoryLabel": "Interdiction",
+      "image": "panneaux/B13a.jpeg",
+      "source": {
+        "page": 10,
+        "index": 8
+      }
+    },
+    {
+      "id": "B14-50",
+      "code": "B14",
+      "name": "Limitation de vitesse a 50 km/h",
+      "category": "interdiction",
+      "categoryLabel": "Interdiction",
+      "image": "panneaux/B14-50.jpeg",
+      "source": {
+        "page": 10,
+        "index": 9
+      }
+    },
+    {
+      "id": "B14-130",
+      "code": "B14",
+      "name": "Limitation de vitesse a 130 km/h",
+      "category": "interdiction",
+      "categoryLabel": "Interdiction",
+      "image": "panneaux/B14-130.jpeg",
+      "source": {
+        "page": 10,
+        "index": 10
+      }
+    },
+    {
+      "id": "B14-110",
+      "code": "B14",
+      "name": "Limitation de vitesse a 110 km/h",
+      "category": "interdiction",
+      "categoryLabel": "Interdiction",
+      "image": "panneaux/B14-110.jpeg",
+      "source": {
+        "page": 10,
+        "index": 11
+      }
+    },
+    {
+      "id": "B14-90",
+      "code": "B14",
+      "name": "Limitation de vitesse a 90 km/h",
+      "category": "interdiction",
+      "categoryLabel": "Interdiction",
+      "image": "panneaux/B14-90.jpeg",
+      "source": {
+        "page": 10,
+        "index": 13
+      }
+    },
+    {
+      "id": "B14-70",
+      "code": "B14",
+      "name": "Limitation de vitesse a 70 km/h",
+      "category": "interdiction",
+      "categoryLabel": "Interdiction",
+      "image": "panneaux/B14-70.jpeg",
+      "source": {
+        "page": 10,
+        "index": 14
+      }
+    },
+    {
+      "id": "B14-30",
+      "code": "B14",
+      "name": "Limitation de vitesse a 30 km/h",
+      "category": "interdiction",
+      "categoryLabel": "Interdiction",
+      "image": "panneaux/B14-30.jpeg",
+      "source": {
+        "page": 10,
+        "index": 15
+      }
+    },
+    {
+      "id": "B15",
+      "code": "B15",
+      "name": "Cedez le passage a la circulation venant en sens inverse",
+      "category": "interdiction",
+      "categoryLabel": "Interdiction",
+      "image": "panneaux/B15.jpeg",
+      "source": {
+        "page": 10,
+        "index": 16
+      }
+    },
+    {
+      "id": "B16",
+      "code": "B16",
+      "name": "Signaux sonores interdits",
+      "category": "interdiction",
+      "categoryLabel": "Interdiction",
+      "image": "panneaux/B16.jpeg",
+      "source": {
+        "page": 10,
+        "index": 17
+      }
+    },
+    {
+      "id": "B17",
+      "code": "B17",
+      "name": "Interdiction de circuler sans intervalle minimal entre vehicules",
+      "category": "interdiction",
+      "categoryLabel": "Interdiction",
+      "image": "panneaux/B17.jpeg",
+      "source": {
+        "page": 11,
+        "index": 1
+      }
+    },
+    {
+      "id": "B18a",
+      "code": "B18a",
+      "name": "Acces interdit aux vehicules transportant des marchandises explosives ou inflammables",
+      "category": "interdiction",
+      "categoryLabel": "Interdiction",
+      "image": "panneaux/B18a.jpeg",
+      "source": {
+        "page": 11,
+        "index": 12
+      }
+    },
+    {
+      "id": "B18b",
+      "code": "B18b",
+      "name": "Acces interdit aux vehicules transportant des marchandises polluant les eaux",
+      "category": "interdiction",
+      "categoryLabel": "Interdiction",
+      "image": "panneaux/B18b.jpeg",
+      "source": {
+        "page": 11,
+        "index": 18
+      }
+    },
+    {
+      "id": "B18c",
+      "code": "B18c",
+      "name": "Acces interdit aux vehicules transportant des marchandises dangereuses",
+      "category": "interdiction",
+      "categoryLabel": "Interdiction",
+      "image": "panneaux/B18c.jpeg",
+      "source": {
+        "page": 11,
+        "index": 19
+      }
+    },
+    {
+      "id": "B19",
+      "code": "B19",
+      "name": "Autres interdictions (inscription sur le panneau)",
+      "category": "interdiction",
+      "categoryLabel": "Interdiction",
+      "image": "panneaux/B19.jpeg",
+      "source": {
+        "page": 11,
+        "index": 20
+      }
+    },
+    {
+      "id": "B21-1",
+      "code": "B21-1",
+      "name": "Obligation de tourner a droite avant le panneau",
+      "category": "obligation",
+      "categoryLabel": "Obligation",
+      "image": "panneaux/B21-1.jpeg",
+      "source": {
+        "page": 11,
+        "index": 21
+      }
+    },
+    {
+      "id": "B21-2",
+      "code": "B21-2",
+      "name": "Obligation de tourner a gauche avant le panneau",
+      "category": "obligation",
+      "categoryLabel": "Obligation",
+      "image": "panneaux/B21-2.jpeg",
+      "source": {
+        "page": 11,
+        "index": 22
+      }
+    },
+    {
+      "id": "B21a1",
+      "code": "B21a1",
+      "name": "Contournement obligatoire par la droite",
+      "category": "obligation",
+      "categoryLabel": "Obligation",
+      "image": "panneaux/B21a1.jpeg",
+      "source": {
+        "page": 11,
+        "index": 23
+      }
+    },
+    {
+      "id": "B21a2",
+      "code": "B21a2",
+      "name": "Contournement obligatoire par la gauche",
+      "category": "obligation",
+      "categoryLabel": "Obligation",
+      "image": "panneaux/B21a2.jpeg",
+      "source": {
+        "page": 11,
+        "index": 24
+      }
+    },
+    {
+      "id": "B21b",
+      "code": "B21b",
+      "name": "Direction obligatoire a la prochaine intersection : tout droit",
+      "category": "obligation",
+      "categoryLabel": "Obligation",
+      "image": "panneaux/B21b.jpeg",
+      "source": {
+        "page": 11,
+        "index": 2
+      }
+    },
+    {
+      "id": "B21c1",
+      "code": "B21c1",
+      "name": "Direction obligatoire a la prochaine intersection : a droite",
+      "category": "obligation",
+      "categoryLabel": "Obligation",
+      "image": "panneaux/B21c1.jpeg",
+      "source": {
+        "page": 11,
+        "index": 3
+      }
+    },
+    {
+      "id": "B21c2",
+      "code": "B21c2",
+      "name": "Direction obligatoire a la prochaine intersection : a gauche",
+      "category": "obligation",
+      "categoryLabel": "Obligation",
+      "image": "panneaux/B21c2.jpeg",
+      "source": {
+        "page": 11,
+        "index": 4
+      }
+    },
+    {
+      "id": "B21d1",
+      "code": "B21d1",
+      "name": "Directions obligatoires : tout droit ou a droite",
+      "category": "obligation",
+      "categoryLabel": "Obligation",
+      "image": "panneaux/B21d1.jpeg",
+      "source": {
+        "page": 11,
+        "index": 5
+      }
+    },
+    {
+      "id": "B21d2",
+      "code": "B21d2",
+      "name": "Directions obligatoires : tout droit ou a gauche",
+      "category": "obligation",
+      "categoryLabel": "Obligation",
+      "image": "panneaux/B21d2.jpeg",
+      "source": {
+        "page": 11,
+        "index": 6
+      }
+    },
+    {
+      "id": "B21e",
+      "code": "B21e",
+      "name": "Directions obligatoires : a droite ou a gauche",
+      "category": "obligation",
+      "categoryLabel": "Obligation",
+      "image": "panneaux/B21e.jpeg",
+      "source": {
+        "page": 11,
+        "index": 7
+      }
+    },
+    {
+      "id": "B22a",
+      "code": "B22a",
+      "name": "Piste ou bande obligatoire pour cycles",
+      "category": "obligation",
+      "categoryLabel": "Obligation",
+      "image": "panneaux/B22a.jpeg",
+      "source": {
+        "page": 11,
+        "index": 8
+      }
+    },
+    {
+      "id": "B22b",
+      "code": "B22b",
+      "name": "Chemin obligatoire pour pietons",
+      "category": "obligation",
+      "categoryLabel": "Obligation",
+      "image": "panneaux/B22b.jpeg",
+      "source": {
+        "page": 11,
+        "index": 9
+      }
+    },
+    {
+      "id": "B22c",
+      "code": "B22c",
+      "name": "Chemin obligatoire pour cavaliers",
+      "category": "obligation",
+      "categoryLabel": "Obligation",
+      "image": "panneaux/B22c.jpeg",
+      "source": {
+        "page": 11,
+        "index": 10
+      }
+    },
+    {
+      "id": "B25",
+      "code": "B25",
+      "name": "Vitesse minimale obligatoire",
+      "category": "obligation",
+      "categoryLabel": "Obligation",
+      "image": "panneaux/B25.jpeg",
+      "source": {
+        "page": 11,
+        "index": 11
+      }
+    },
+    {
+      "id": "B26",
+      "code": "B26",
+      "name": "Chaines a neige obligatoires sur au moins deux roues motrices",
+      "category": "obligation",
+      "categoryLabel": "Obligation",
+      "image": "panneaux/B26.jpeg",
+      "source": {
+        "page": 11,
+        "index": 13
+      }
+    },
+    {
+      "id": "B27a",
+      "code": "B27a",
+      "name": "Voie reservee aux vehicules de transport en commun",
+      "category": "obligation",
+      "categoryLabel": "Obligation",
+      "image": "panneaux/B27a.jpeg",
+      "source": {
+        "page": 11,
+        "index": 14
+      }
+    },
+    {
+      "id": "B27b",
+      "code": "B27b",
+      "name": "Voie reservee aux tramways",
+      "category": "obligation",
+      "categoryLabel": "Obligation",
+      "image": "panneaux/B27b.jpeg",
+      "source": {
+        "page": 11,
+        "index": 15
+      }
+    },
+    {
+      "id": "B29",
+      "code": "B29",
+      "name": "Autres obligations (inscription sur le panneau)",
+      "category": "obligation",
+      "categoryLabel": "Obligation",
+      "image": "panneaux/B29.jpeg",
+      "source": {
+        "page": 11,
+        "index": 16
+      }
+    },
+    {
+      "id": "B30",
+      "code": "B30",
+      "name": "Entree de zone a vitesse limitee a 30 km/h",
+      "category": "zone",
+      "categoryLabel": "Entree de zone",
+      "image": "panneaux/B30.jpeg",
+      "source": {
+        "page": 11,
+        "index": 17
+      }
+    },
+    {
+      "id": "B31",
+      "code": "B31",
+      "name": "Fin de toutes les interdictions precedemment signalees",
+      "category": "fin",
+      "categoryLabel": "Fin de prescription / sortie de zone",
+      "image": "panneaux/B31.jpeg",
+      "source": {
+        "page": 12,
+        "index": 1
+      }
+    },
+    {
+      "id": "B33-70",
+      "code": "B33",
+      "name": "Fin de limitation de vitesse (70 km/h)",
+      "category": "fin",
+      "categoryLabel": "Fin de prescription / sortie de zone",
+      "image": "panneaux/B33-70.jpeg",
+      "source": {
+        "page": 12,
+        "index": 12
+      }
+    },
+    {
+      "id": "B33-50",
+      "code": "B33",
+      "name": "Fin de limitation de vitesse (50 km/h)",
+      "category": "fin",
+      "categoryLabel": "Fin de prescription / sortie de zone",
+      "image": "panneaux/B33-50.jpeg",
+      "source": {
+        "page": 12,
+        "index": 21
+      }
+    },
+    {
+      "id": "B33-30",
+      "code": "B33",
+      "name": "Fin de limitation de vitesse (30 km/h)",
+      "category": "fin",
+      "categoryLabel": "Fin de prescription / sortie de zone",
+      "image": "panneaux/B33-30.jpeg",
+      "source": {
+        "page": 12,
+        "index": 22
+      }
+    },
+    {
+      "id": "B33-90",
+      "code": "B33",
+      "name": "Fin de limitation de vitesse (90 km/h)",
+      "category": "fin",
+      "categoryLabel": "Fin de prescription / sortie de zone",
+      "image": "panneaux/B33-90.jpeg",
+      "source": {
+        "page": 12,
+        "index": 23
+      }
+    },
+    {
+      "id": "B33-110",
+      "code": "B33",
+      "name": "Fin de limitation de vitesse (110 km/h)",
+      "category": "fin",
+      "categoryLabel": "Fin de prescription / sortie de zone",
+      "image": "panneaux/B33-110.jpeg",
+      "source": {
+        "page": 12,
+        "index": 24
+      }
+    },
+    {
+      "id": "B34",
+      "code": "B34",
+      "name": "Fin d'interdiction de depasser (notifiee par B3)",
+      "category": "fin",
+      "categoryLabel": "Fin de prescription / sortie de zone",
+      "image": "panneaux/B34.jpeg",
+      "source": {
+        "page": 12,
+        "index": 25
+      }
+    },
+    {
+      "id": "B34a",
+      "code": "B34a",
+      "name": "Fin d'interdiction de depasser (notifiee par B3a)",
+      "category": "fin",
+      "categoryLabel": "Fin de prescription / sortie de zone",
+      "image": "panneaux/B34a.jpeg",
+      "source": {
+        "page": 12,
+        "index": 26
+      }
+    },
+    {
+      "id": "B35",
+      "code": "B35",
+      "name": "Fin d'interdiction de l'usage de l'avertisseur sonore",
+      "category": "fin",
+      "categoryLabel": "Fin de prescription / sortie de zone",
+      "image": "panneaux/B35.jpeg",
+      "source": {
+        "page": 12,
+        "index": 27
+      }
+    },
+    {
+      "id": "B39",
+      "code": "B39",
+      "name": "Fin d'interdiction (inscription sur le panneau)",
+      "category": "fin",
+      "categoryLabel": "Fin de prescription / sortie de zone",
+      "image": "panneaux/B39.jpeg",
+      "source": {
+        "page": 12,
+        "index": 2
+      }
+    },
+    {
+      "id": "B40",
+      "code": "B40",
+      "name": "Fin de piste ou bande obligatoire pour cycles",
+      "category": "fin",
+      "categoryLabel": "Fin de prescription / sortie de zone",
+      "image": "panneaux/B40.jpeg",
+      "source": {
+        "page": 12,
+        "index": 3
+      }
+    },
+    {
+      "id": "B41",
+      "code": "B41",
+      "name": "Fin de chemin obligatoire pour pietons",
+      "category": "fin",
+      "categoryLabel": "Fin de prescription / sortie de zone",
+      "image": "panneaux/B41.jpeg",
+      "source": {
+        "page": 12,
+        "index": 4
+      }
+    },
+    {
+      "id": "B42",
+      "code": "B42",
+      "name": "Fin de chemin obligatoire pour cavaliers",
+      "category": "fin",
+      "categoryLabel": "Fin de prescription / sortie de zone",
+      "image": "panneaux/B42.jpeg",
+      "source": {
+        "page": 12,
+        "index": 5
+      }
+    },
+    {
+      "id": "B43",
+      "code": "B43",
+      "name": "Fin de vitesse minimale obligatoire",
+      "category": "fin",
+      "categoryLabel": "Fin de prescription / sortie de zone",
+      "image": "panneaux/B43.jpeg",
+      "source": {
+        "page": 12,
+        "index": 6
+      }
+    },
+    {
+      "id": "B44",
+      "code": "B44",
+      "name": "Fin d'obligation de l'usage des chaines a neige",
+      "category": "fin",
+      "categoryLabel": "Fin de prescription / sortie de zone",
+      "image": "panneaux/B44.jpeg",
+      "source": {
+        "page": 12,
+        "index": 7
+      }
+    },
+    {
+      "id": "B45",
+      "code": "B45",
+      "name": "Fin de voie reservee aux vehicules de transport en commun",
+      "category": "fin",
+      "categoryLabel": "Fin de prescription / sortie de zone",
+      "image": "panneaux/B45.jpeg",
+      "source": {
+        "page": 12,
+        "index": 8
+      }
+    },
+    {
+      "id": "B49",
+      "code": "B49",
+      "name": "Fin d'obligation (inscription sur le panneau)",
+      "category": "fin",
+      "categoryLabel": "Fin de prescription / sortie de zone",
+      "image": "panneaux/B49.jpeg",
+      "source": {
+        "page": 12,
+        "index": 9
+      }
+    },
+    {
+      "id": "B50a",
+      "code": "B50a",
+      "name": "Sortie de zone a stationnement interdit",
+      "category": "fin",
+      "categoryLabel": "Fin de prescription / sortie de zone",
+      "image": "panneaux/B50a.jpeg",
+      "source": {
+        "page": 12,
+        "index": 10
+      }
+    },
+    {
+      "id": "B50b",
+      "code": "B50b",
+      "name": "Sortie de zone a stationnement unilateral a alternance semi-mensuelle",
+      "category": "fin",
+      "categoryLabel": "Fin de prescription / sortie de zone",
+      "image": "panneaux/B50b.jpeg",
+      "source": {
+        "page": 12,
+        "index": 11
+      }
+    },
+    {
+      "id": "B50c",
+      "code": "B50c",
+      "name": "Sortie de zone a stationnement de duree limitee (disque)",
+      "category": "fin",
+      "categoryLabel": "Fin de prescription / sortie de zone",
+      "image": "panneaux/B50c.jpeg",
+      "source": {
+        "page": 12,
+        "index": 13
+      }
+    },
+    {
+      "id": "B50c-ancien",
+      "code": "B50c-ancien",
+      "name": "Sortie de zone a stationnement de duree limitee 1h30 (disque)",
+      "category": "fin",
+      "categoryLabel": "Fin de prescription / sortie de zone",
+      "image": "panneaux/B50c-ancien.jpeg",
+      "source": {
+        "page": 12,
+        "index": 14
+      }
+    },
+    {
+      "id": "B50d",
+      "code": "B50d",
+      "name": "Sortie de zone a stationnement payant",
+      "category": "fin",
+      "categoryLabel": "Fin de prescription / sortie de zone",
+      "image": "panneaux/B50d.jpeg",
+      "source": {
+        "page": 12,
+        "index": 15
+      }
+    },
+    {
+      "id": "B50e",
+      "code": "B50e",
+      "name": "Sortie de zone a stationnement unilateral et duree limitee",
+      "category": "fin",
+      "categoryLabel": "Fin de prescription / sortie de zone",
+      "image": "panneaux/B50e.jpeg",
+      "source": {
+        "page": 12,
+        "index": 16
+      }
+    },
+    {
+      "id": "B50e-ancien",
+      "code": "B50e-ancien",
+      "name": "Sortie de zone a stationnement unilateral et duree limitee 1h30",
+      "category": "fin",
+      "categoryLabel": "Fin de prescription / sortie de zone",
+      "image": "panneaux/B50e-ancien.jpeg",
+      "source": {
+        "page": 12,
+        "index": 17
+      }
+    },
+    {
+      "id": "B51",
+      "code": "B51",
+      "name": "Sortie de zone a vitesse limitee a 30 km/h",
+      "category": "fin",
+      "categoryLabel": "Fin de prescription / sortie de zone",
+      "image": "panneaux/B51.jpeg",
+      "source": {
+        "page": 12,
+        "index": 18
+      }
+    },
+    {
+      "id": "B52",
+      "code": "B52",
+      "name": "Entree d'une zone de rencontre",
+      "category": "zone",
+      "categoryLabel": "Entree de zone",
+      "image": "panneaux/B52.jpeg",
+      "source": {
+        "page": 12,
+        "index": 19
+      }
+    },
+    {
+      "id": "B53",
+      "code": "B53",
+      "name": "Sortie d'une zone de rencontre",
+      "category": "fin",
+      "categoryLabel": "Fin de prescription / sortie de zone",
+      "image": "panneaux/B53.jpeg",
+      "source": {
+        "page": 12,
+        "index": 20
+      }
+    },
+    {
+      "id": "C1a",
+      "code": "C1a",
+      "name": "Lieu amenage pour le stationnement",
+      "category": "indication",
+      "categoryLabel": "Indication",
+      "image": "panneaux/C1a.jpeg",
+      "source": {
+        "page": 13,
+        "index": 1
+      }
+    },
+    {
+      "id": "C1b",
+      "code": "C1b",
+      "name": "Stationnement gratuit a duree limitee (disque)",
+      "category": "indication",
+      "categoryLabel": "Indication",
+      "image": "panneaux/C1b.jpeg",
+      "source": {
+        "page": 13,
+        "index": 12
+      }
+    },
+    {
+      "id": "C1b-ancien",
+      "code": "C1b-ancien",
+      "name": "Stationnement gratuit a duree limitee 1h30 (disque)",
+      "category": "indication",
+      "categoryLabel": "Indication",
+      "image": "panneaux/C1b-ancien.jpeg",
+      "source": {
+        "page": 13,
+        "index": 17
+      }
+    },
+    {
+      "id": "C1c",
+      "code": "C1c",
+      "name": "Lieu amenage pour le stationnement payant",
+      "category": "indication",
+      "categoryLabel": "Indication",
+      "image": "panneaux/C1c.jpeg",
+      "source": {
+        "page": 13,
+        "index": 18
+      }
+    },
+    {
+      "id": "C3",
+      "code": "C3",
+      "name": "Risque d'incendie",
+      "category": "indication",
+      "categoryLabel": "Indication",
+      "image": "panneaux/C3.jpeg",
+      "source": {
+        "page": 13,
+        "index": 19
+      }
+    },
+    {
+      "id": "C4a",
+      "code": "C4a",
+      "name": "Vitesse conseillee",
+      "category": "indication",
+      "categoryLabel": "Indication",
+      "image": "panneaux/C4a.jpeg",
+      "source": {
+        "page": 13,
+        "index": 20
+      }
+    },
+    {
+      "id": "C4b",
+      "code": "C4b",
+      "name": "Fin de vitesse conseillee",
+      "category": "indication",
+      "categoryLabel": "Indication",
+      "image": "panneaux/C4b.jpeg",
+      "source": {
+        "page": 13,
+        "index": 21
+      }
+    },
+    {
+      "id": "C5",
+      "code": "C5",
+      "name": "Station de taxis",
+      "category": "indication",
+      "categoryLabel": "Indication",
+      "image": "panneaux/C5.jpeg",
+      "source": {
+        "page": 13,
+        "index": 22
+      }
+    },
+    {
+      "id": "C6",
+      "code": "C6",
+      "name": "Arret d'autobus",
+      "category": "indication",
+      "categoryLabel": "Indication",
+      "image": "panneaux/C6.jpeg",
+      "source": {
+        "page": 13,
+        "index": 23
+      }
+    },
+    {
+      "id": "C8",
+      "code": "C8",
+      "name": "Emplacement d'arret d'urgence",
+      "category": "indication",
+      "categoryLabel": "Indication",
+      "image": "panneaux/C8.jpeg",
+      "source": {
+        "page": 13,
+        "index": 2
+      }
+    },
+    {
+      "id": "C12",
+      "code": "C12",
+      "name": "Circulation a sens unique",
+      "category": "indication",
+      "categoryLabel": "Indication",
+      "image": "panneaux/C12.jpeg",
+      "source": {
+        "page": 13,
+        "index": 3
+      }
+    },
+    {
+      "id": "C13a",
+      "code": "C13a",
+      "name": "Impasse",
+      "category": "indication",
+      "categoryLabel": "Indication",
+      "image": "panneaux/C13a.jpeg",
+      "source": {
+        "page": 13,
+        "index": 4
+      }
+    },
+    {
+      "id": "C13b",
+      "code": "C13b",
+      "name": "Presignalisation d'une impasse",
+      "category": "indication",
+      "categoryLabel": "Indication",
+      "image": "panneaux/C13b.jpeg",
+      "source": {
+        "page": 13,
+        "index": 5
+      }
+    },
+    {
+      "id": "C14-1",
+      "code": "C14",
+      "name": "Praticabilite d'une section de route",
+      "category": "indication",
+      "categoryLabel": "Indication",
+      "image": "panneaux/C14-1.jpeg",
+      "source": {
+        "page": 13,
+        "index": 6
+      }
+    },
+    {
+      "id": "C14-2",
+      "code": "C14",
+      "name": "Praticabilite d'une section de route",
+      "category": "indication",
+      "categoryLabel": "Indication",
+      "image": "panneaux/C14-2.jpeg",
+      "source": {
+        "page": 13,
+        "index": 7
+      }
+    },
+    {
+      "id": "C14-3",
+      "code": "C14",
+      "name": "Praticabilite d'une section de route",
+      "category": "indication",
+      "categoryLabel": "Indication",
+      "image": "panneaux/C14-3.jpeg",
+      "source": {
+        "page": 13,
+        "index": 8
+      }
+    },
+    {
+      "id": "C14-4",
+      "code": "C14",
+      "name": "Praticabilite d'une section de route",
+      "category": "indication",
+      "categoryLabel": "Indication",
+      "image": "panneaux/C14-4.jpeg",
+      "source": {
+        "page": 13,
+        "index": 9
+      }
+    },
+    {
+      "id": "C18",
+      "code": "C18",
+      "name": "Priorite par rapport a la circulation venant en sens inverse",
+      "category": "indication",
+      "categoryLabel": "Indication",
+      "image": "panneaux/C18.jpeg",
+      "source": {
+        "page": 13,
+        "index": 10
+      }
+    },
+    {
+      "id": "C20a",
+      "code": "C20a",
+      "name": "Passage pour pietons",
+      "category": "indication",
+      "categoryLabel": "Indication",
+      "image": "panneaux/C20a.jpeg",
+      "source": {
+        "page": 13,
+        "index": 11
+      }
+    },
+    {
+      "id": "C20c",
+      "code": "C20c",
+      "name": "Traversee de tramways",
+      "category": "indication",
+      "categoryLabel": "Indication",
+      "image": "panneaux/C20c.jpeg",
+      "source": {
+        "page": 13,
+        "index": 13
+      }
+    },
+    {
+      "id": "C23",
+      "code": "C23",
+      "name": "Stationnement reglemente pour caravanes et autocaravanes",
+      "category": "indication",
+      "categoryLabel": "Indication",
+      "image": "panneaux/C23.jpeg",
+      "source": {
+        "page": 13,
+        "index": 14
+      }
+    },
+    {
+      "id": "B54",
+      "code": "B54",
+      "name": "Entree d'aire pietonne",
+      "category": "zone",
+      "categoryLabel": "Entree de zone",
+      "image": "panneaux/B54.jpeg",
+      "source": {
+        "page": 13,
+        "index": 15
+      }
+    },
+    {
+      "id": "B55",
+      "code": "B55",
+      "name": "Sortie d'aire pietonne",
+      "category": "fin",
+      "categoryLabel": "Fin de prescription / sortie de zone",
+      "image": "panneaux/B55.jpeg",
+      "source": {
+        "page": 13,
+        "index": 16
+      }
+    },
+    {
+      "id": "C24a-1",
+      "code": "C24a",
+      "name": "Conditions particulieres de circulation par voie",
+      "category": "indication",
+      "categoryLabel": "Indication",
+      "image": "panneaux/C24a-1.jpeg",
+      "source": {
+        "page": 14,
+        "index": 1
+      }
+    },
+    {
+      "id": "C24a-2",
+      "code": "C24a",
+      "name": "Conditions particulieres de circulation par voie",
+      "category": "indication",
+      "categoryLabel": "Indication",
+      "image": "panneaux/C24a-2.jpeg",
+      "source": {
+        "page": 14,
+        "index": 12
+      }
+    },
+    {
+      "id": "C24a-3",
+      "code": "C24a",
+      "name": "Conditions particulieres de circulation par voie",
+      "category": "indication",
+      "categoryLabel": "Indication",
+      "image": "panneaux/C24a-3.jpeg",
+      "source": {
+        "page": 14,
+        "index": 18
+      }
+    },
+    {
+      "id": "C24a-4",
+      "code": "C24a",
+      "name": "Conditions particulieres de circulation par voie",
+      "category": "indication",
+      "categoryLabel": "Indication",
+      "image": "panneaux/C24a-4.jpeg",
+      "source": {
+        "page": 14,
+        "index": 19
+      }
+    },
+    {
+      "id": "C24b-1",
+      "code": "C24b",
+      "name": "Voies affectees a l'approche d'une intersection",
+      "category": "indication",
+      "categoryLabel": "Indication",
+      "image": "panneaux/C24b-1.jpeg",
+      "source": {
+        "page": 14,
+        "index": 20
+      }
+    },
+    {
+      "id": "C24b-2",
+      "code": "C24b",
+      "name": "Voies affectees a l'approche d'une intersection",
+      "category": "indication",
+      "categoryLabel": "Indication",
+      "image": "panneaux/C24b-2.jpeg",
+      "source": {
+        "page": 14,
+        "index": 21
+      }
+    },
+    {
+      "id": "C24c-1",
+      "code": "C24c",
+      "name": "Conditions de circulation sur la voie embranchee",
+      "category": "indication",
+      "categoryLabel": "Indication",
+      "image": "panneaux/C24c-1.jpeg",
+      "source": {
+        "page": 14,
+        "index": 22
+      }
+    },
+    {
+      "id": "C24c-2",
+      "code": "C24c",
+      "name": "Conditions de circulation sur la voie embranchee",
+      "category": "indication",
+      "categoryLabel": "Indication",
+      "image": "panneaux/C24c-2.jpeg",
+      "source": {
+        "page": 14,
+        "index": 23
+      }
+    },
+    {
+      "id": "C25a",
+      "code": "C25a",
+      "name": "Limites de vitesse aux frontieres (territoire francais)",
+      "category": "indication",
+      "categoryLabel": "Indication",
+      "image": "panneaux/C25a.jpeg",
+      "source": {
+        "page": 14,
+        "index": 24
+      }
+    },
+    {
+      "id": "C25b",
+      "code": "C25b",
+      "name": "Rappel des limites de vitesse sur autoroute",
+      "category": "indication",
+      "categoryLabel": "Indication",
+      "image": "panneaux/C25b.jpeg",
+      "source": {
+        "page": 14,
+        "index": 2
+      }
+    },
+    {
+      "id": "C26a",
+      "code": "C26a",
+      "name": "Voie de detresse a droite",
+      "category": "indication",
+      "categoryLabel": "Indication",
+      "image": "panneaux/C26a.jpeg",
+      "source": {
+        "page": 14,
+        "index": 3
+      }
+    },
+    {
+      "id": "C26b",
+      "code": "C26b",
+      "name": "Voie de detresse a gauche",
+      "category": "indication",
+      "categoryLabel": "Indication",
+      "image": "panneaux/C26b.jpeg",
+      "source": {
+        "page": 14,
+        "index": 4
+      }
+    },
+    {
+      "id": "C27",
+      "code": "C27",
+      "name": "Surelevation de chaussee",
+      "category": "indication",
+      "categoryLabel": "Indication",
+      "image": "panneaux/C27.jpeg",
+      "source": {
+        "page": 14,
+        "index": 5
+      }
+    },
+    {
+      "id": "C28-1",
+      "code": "C28",
+      "name": "Reduction du nombre de voies",
+      "category": "indication",
+      "categoryLabel": "Indication",
+      "image": "panneaux/C28-1.jpeg",
+      "source": {
+        "page": 14,
+        "index": 6
+      }
+    },
+    {
+      "id": "C28-2",
+      "code": "C28",
+      "name": "Reduction du nombre de voies",
+      "category": "indication",
+      "categoryLabel": "Indication",
+      "image": "panneaux/C28-2.jpeg",
+      "source": {
+        "page": 14,
+        "index": 7
+      }
+    },
+    {
+      "id": "C28-3",
+      "code": "C28",
+      "name": "Reduction du nombre de voies",
+      "category": "indication",
+      "categoryLabel": "Indication",
+      "image": "panneaux/C28-3.jpeg",
+      "source": {
+        "page": 14,
+        "index": 8
+      }
+    },
+    {
+      "id": "C29a",
+      "code": "C29a",
+      "name": "Presignalisation d'un creneau de depassement",
+      "category": "indication",
+      "categoryLabel": "Indication",
+      "image": "panneaux/C29a.jpeg",
+      "source": {
+        "page": 14,
+        "index": 9
+      }
+    },
+    {
+      "id": "C29b",
+      "code": "C29b",
+      "name": "Creneau de depassement a trois voies (deux voies dans un sens)",
+      "category": "indication",
+      "categoryLabel": "Indication",
+      "image": "panneaux/C29b.jpeg",
+      "source": {
+        "page": 14,
+        "index": 10
+      }
+    },
+    {
+      "id": "C29c",
+      "code": "C29c",
+      "name": "Section a trois voies (une voie dans un sens, deux dans l'autre)",
+      "category": "indication",
+      "categoryLabel": "Indication",
+      "image": "panneaux/C29c.jpeg",
+      "source": {
+        "page": 14,
+        "index": 11
+      }
+    },
+    {
+      "id": "C30",
+      "code": "C30",
+      "name": "Fin de creneau de depassement a trois voies",
+      "category": "indication",
+      "categoryLabel": "Indication",
+      "image": "panneaux/C30.jpeg",
+      "source": {
+        "page": 14,
+        "index": 13
+      }
+    },
+    {
+      "id": "C50",
+      "code": "C50",
+      "name": "Indications diverses",
+      "category": "indication",
+      "categoryLabel": "Indication",
+      "image": "panneaux/C50.jpeg",
+      "source": {
+        "page": 14,
+        "index": 14
+      }
+    },
+    {
+      "id": "C62",
+      "code": "C62",
+      "name": "Presignalisation d'une borne de retrait de ticket de peage",
+      "category": "indication",
+      "categoryLabel": "Indication",
+      "image": "panneaux/C62.jpeg",
+      "source": {
+        "page": 14,
+        "index": 15
+      }
+    },
+    {
+      "id": "C64a",
+      "code": "C64a",
+      "name": "Paiement aupres d'un peagiste",
+      "category": "indication",
+      "categoryLabel": "Indication",
+      "image": "panneaux/C64a.jpeg",
+      "source": {
+        "page": 14,
+        "index": 16
+      }
+    },
+    {
+      "id": "C64b",
+      "code": "C64b",
+      "name": "Paiement par carte bancaire",
+      "category": "indication",
+      "categoryLabel": "Indication",
+      "image": "panneaux/C64b.jpeg",
+      "source": {
+        "page": 14,
+        "index": 17
+      }
+    },
+    {
+      "id": "C64c",
+      "code": "C64c",
+      "name": "Paiement automatique par pieces de monnaie",
+      "category": "indication",
+      "categoryLabel": "Indication",
+      "image": "panneaux/C64c.jpeg",
+      "source": {
+        "page": 15,
+        "index": 1
+      }
+    },
+    {
+      "id": "C64d-1",
+      "code": "C64d",
+      "name": "Paiement par abonnement (telepeage)",
+      "category": "indication",
+      "categoryLabel": "Indication",
+      "image": "panneaux/C64d-1.jpeg",
+      "source": {
+        "page": 15,
+        "index": 12
+      }
+    },
+    {
+      "id": "C64d-2",
+      "code": "C64d",
+      "name": "Paiement par abonnement (telepeage)",
+      "category": "indication",
+      "categoryLabel": "Indication",
+      "image": "panneaux/C64d-2.jpeg",
+      "source": {
+        "page": 15,
+        "index": 15
+      }
+    },
+    {
+      "id": "C107",
+      "code": "C107",
+      "name": "Route a acces reglemente",
+      "category": "indication",
+      "categoryLabel": "Indication",
+      "image": "panneaux/C107.jpeg",
+      "source": {
+        "page": 15,
+        "index": 16
+      }
+    },
+    {
+      "id": "C108",
+      "code": "C108",
+      "name": "Fin de route a acces reglemente",
+      "category": "indication",
+      "categoryLabel": "Indication",
+      "image": "panneaux/C108.jpeg",
+      "source": {
+        "page": 15,
+        "index": 17
+      }
+    },
+    {
+      "id": "C111",
+      "code": "C111",
+      "name": "Entree d'un tunnel",
+      "category": "indication",
+      "categoryLabel": "Indication",
+      "image": "panneaux/C111.jpeg",
+      "source": {
+        "page": 15,
+        "index": 18
+      }
+    },
+    {
+      "id": "C112",
+      "code": "C112",
+      "name": "Sortie de tunnel",
+      "category": "indication",
+      "categoryLabel": "Indication",
+      "image": "panneaux/C112.jpeg",
+      "source": {
+        "page": 15,
+        "index": 19
+      }
+    },
+    {
+      "id": "C113",
+      "code": "C113",
+      "name": "Piste ou bande cyclable conseillee et reservee aux cycles",
+      "category": "indication",
+      "categoryLabel": "Indication",
+      "image": "panneaux/C113.jpeg",
+      "source": {
+        "page": 15,
+        "index": 20
+      }
+    },
+    {
+      "id": "C114",
+      "code": "C114",
+      "name": "Fin de piste ou bande cyclable conseillee",
+      "category": "indication",
+      "categoryLabel": "Indication",
+      "image": "panneaux/C114.jpeg",
+      "source": {
+        "page": 15,
+        "index": 21
+      }
+    },
+    {
+      "id": "C115",
+      "code": "C115",
+      "name": "Voie verte (pietons et vehicules non motorises)",
+      "category": "indication",
+      "categoryLabel": "Indication",
+      "image": "panneaux/C115.jpeg",
+      "source": {
+        "page": 15,
+        "index": 2
+      }
+    },
+    {
+      "id": "C116",
+      "code": "C116",
+      "name": "Fin de voie verte",
+      "category": "indication",
+      "categoryLabel": "Indication",
+      "image": "panneaux/C116.jpeg",
+      "source": {
+        "page": 15,
+        "index": 3
+      }
+    },
+    {
+      "id": "C117-1",
+      "code": "C117",
+      "name": "Presignalisation d'un tunnel interdit a certaines marchandises dangereuses",
+      "category": "indication",
+      "categoryLabel": "Indication",
+      "image": "panneaux/C117-1.jpeg",
+      "source": {
+        "page": 15,
+        "index": 4
+      }
+    },
+    {
+      "id": "C117-2",
+      "code": "C117",
+      "name": "Presignalisation d'un tunnel interdit a certaines marchandises dangereuses",
+      "category": "indication",
+      "categoryLabel": "Indication",
+      "image": "panneaux/C117-2.jpeg",
+      "source": {
+        "page": 15,
+        "index": 5
+      }
+    },
+    {
+      "id": "C207",
+      "code": "C207",
+      "name": "Debut de section d'autoroute",
+      "category": "indication",
+      "categoryLabel": "Indication",
+      "image": "panneaux/C207.jpeg",
+      "source": {
+        "page": 15,
+        "index": 6
+      }
+    },
+    {
+      "id": "C208",
+      "code": "C208",
+      "name": "Fin de section d'autoroute",
+      "category": "indication",
+      "categoryLabel": "Indication",
+      "image": "panneaux/C208.jpeg",
+      "source": {
+        "page": 15,
+        "index": 7
+      }
+    },
+    {
+      "id": "CE1",
+      "code": "CE1",
+      "name": "Poste de secours",
+      "category": "services",
+      "categoryLabel": "Services (CE)",
+      "image": "panneaux/CE1.jpeg",
+      "source": {
+        "page": 15,
+        "index": 8
+      }
+    },
+    {
+      "id": "CE2a",
+      "code": "CE2a",
+      "name": "Poste d'appel d'urgence",
+      "category": "services",
+      "categoryLabel": "Services (CE)",
+      "image": "panneaux/CE2a.jpeg",
+      "source": {
+        "page": 15,
+        "index": 9
+      }
+    },
+    {
+      "id": "CE2b",
+      "code": "CE2b",
+      "name": "Cabine telephonique publique",
+      "category": "services",
+      "categoryLabel": "Services (CE)",
+      "image": "panneaux/CE2b.jpeg",
+      "source": {
+        "page": 15,
+        "index": 10
+      }
+    },
+    {
+      "id": "CE3a",
+      "code": "CE3a",
+      "name": "Informations touristiques",
+      "category": "services",
+      "categoryLabel": "Services (CE)",
+      "image": "panneaux/CE3a.jpeg",
+      "source": {
+        "page": 15,
+        "index": 11
+      }
+    },
+    {
+      "id": "CE3b",
+      "code": "CE3b",
+      "name": "Relais d'information service",
+      "category": "services",
+      "categoryLabel": "Services (CE)",
+      "image": "panneaux/CE3b.jpeg",
+      "source": {
+        "page": 15,
+        "index": 13
+      }
+    },
+    {
+      "id": "CE4a",
+      "code": "CE4a",
+      "name": "Terrain de camping pour tentes",
+      "category": "services",
+      "categoryLabel": "Services (CE)",
+      "image": "panneaux/CE4a.jpeg",
+      "source": {
+        "page": 15,
+        "index": 14
+      }
+    },
+    {
+      "id": "E52a-1",
+      "code": "E52a",
+      "name": "Borne routiere (reseau national)",
+      "category": "localisation",
+      "categoryLabel": "Localisation et bornes",
+      "image": "panneaux/E52a-1.jpeg",
+      "source": {
+        "page": 24,
+        "index": 1
+      }
+    },
+    {
+      "id": "E52a-2",
+      "code": "E52a",
+      "name": "Borne routiere (reseau national)",
+      "category": "localisation",
+      "categoryLabel": "Localisation et bornes",
+      "image": "panneaux/E52a-2.jpeg",
+      "source": {
+        "page": 24,
+        "index": 12
+      }
+    },
+    {
+      "id": "E52a-3",
+      "code": "E52a",
+      "name": "Borne routiere (reseau national)",
+      "category": "localisation",
+      "categoryLabel": "Localisation et bornes",
+      "image": "panneaux/E52a-3.jpeg",
+      "source": {
+        "page": 24,
+        "index": 13
+      }
+    },
+    {
+      "id": "E52b-1",
+      "code": "E52b",
+      "name": "Borne routiere avec altitude (reseau national)",
+      "category": "localisation",
+      "categoryLabel": "Localisation et bornes",
+      "image": "panneaux/E52b-1.jpeg",
+      "source": {
+        "page": 24,
+        "index": 14
+      }
+    },
+    {
+      "id": "E52b-2",
+      "code": "E52b",
+      "name": "Borne routiere avec altitude (reseau national)",
+      "category": "localisation",
+      "categoryLabel": "Localisation et bornes",
+      "image": "panneaux/E52b-2.jpeg",
+      "source": {
+        "page": 24,
+        "index": 15
+      }
+    },
+    {
+      "id": "E52c-1",
+      "code": "E52c",
+      "name": "Plaquette de reperage hectometrique (national)",
+      "category": "localisation",
+      "categoryLabel": "Localisation et bornes",
+      "image": "panneaux/E52c-1.jpeg",
+      "source": {
+        "page": 24,
+        "index": 16
+      }
+    },
+    {
+      "id": "E52c-2",
+      "code": "E52c",
+      "name": "Plaquette de reperage hectometrique (national)",
+      "category": "localisation",
+      "categoryLabel": "Localisation et bornes",
+      "image": "panneaux/E52c-2.jpeg",
+      "source": {
+        "page": 24,
+        "index": 17
+      }
+    },
+    {
+      "id": "E53a-1",
+      "code": "E53a",
+      "name": "Borne routiere (route departementale)",
+      "category": "localisation",
+      "categoryLabel": "Localisation et bornes",
+      "image": "panneaux/E53a-1.jpeg",
+      "source": {
+        "page": 24,
+        "index": 18
+      }
+    },
+    {
+      "id": "E53a-2",
+      "code": "E53a",
+      "name": "Borne routiere (route departementale)",
+      "category": "localisation",
+      "categoryLabel": "Localisation et bornes",
+      "image": "panneaux/E53a-2.jpeg",
+      "source": {
+        "page": 24,
+        "index": 19
+      }
+    },
+    {
+      "id": "E53b-1",
+      "code": "E53b",
+      "name": "Borne departementale avec altitude",
+      "category": "localisation",
+      "categoryLabel": "Localisation et bornes",
+      "image": "panneaux/E53b-1.jpeg",
+      "source": {
+        "page": 24,
+        "index": 2
+      }
+    },
+    {
+      "id": "E53b-2",
+      "code": "E53b",
+      "name": "Borne departementale avec altitude",
+      "category": "localisation",
+      "categoryLabel": "Localisation et bornes",
+      "image": "panneaux/E53b-2.jpeg",
+      "source": {
+        "page": 24,
+        "index": 3
+      }
+    },
+    {
+      "id": "E53c-1",
+      "code": "E53c",
+      "name": "Plaquette de reperage hectometrique (departementale)",
+      "category": "localisation",
+      "categoryLabel": "Localisation et bornes",
+      "image": "panneaux/E53c-1.jpeg",
+      "source": {
+        "page": 24,
+        "index": 4
+      }
+    },
+    {
+      "id": "E53c-2",
+      "code": "E53c",
+      "name": "Plaquette de reperage hectometrique (departementale)",
+      "category": "localisation",
+      "categoryLabel": "Localisation et bornes",
+      "image": "panneaux/E53c-2.jpeg",
+      "source": {
+        "page": 24,
+        "index": 5
+      }
+    },
+    {
+      "id": "E54a",
+      "code": "E54a",
+      "name": "Borne des voies communales",
+      "category": "localisation",
+      "categoryLabel": "Localisation et bornes",
+      "image": "panneaux/E54a.jpeg",
+      "source": {
+        "page": 24,
+        "index": 6
+      }
+    },
+    {
+      "id": "E54b-1",
+      "code": "E54b",
+      "name": "Borne communale avec altitude",
+      "category": "localisation",
+      "categoryLabel": "Localisation et bornes",
+      "image": "panneaux/E54b-1.jpeg",
+      "source": {
+        "page": 24,
+        "index": 7
+      }
+    },
+    {
+      "id": "E54b-2",
+      "code": "E54b",
+      "name": "Borne communale avec altitude",
+      "category": "localisation",
+      "categoryLabel": "Localisation et bornes",
+      "image": "panneaux/E54b-2.jpeg",
+      "source": {
+        "page": 24,
+        "index": 8
+      }
+    },
+    {
+      "id": "E54c",
+      "code": "E54c",
+      "name": "Plaquette de reperage hectometrique (communale)",
+      "category": "localisation",
+      "categoryLabel": "Localisation et bornes",
+      "image": "panneaux/E54c.jpeg",
+      "source": {
+        "page": 24,
+        "index": 9
+      }
+    },
+    {
+      "id": "EB10",
+      "code": "EB10",
+      "name": "Entree d'agglomeration",
+      "category": "localisation",
+      "categoryLabel": "Localisation et bornes",
+      "image": "panneaux/EB10.jpeg",
+      "source": {
+        "page": 24,
+        "index": 10
+      }
+    },
+    {
+      "id": "EB20",
+      "code": "EB20",
+      "name": "Sortie d'agglomeration",
+      "category": "localisation",
+      "categoryLabel": "Localisation et bornes",
+      "image": "panneaux/EB20.jpeg",
+      "source": {
+        "page": 24,
+        "index": 11
+      }
+    },
+    {
+      "id": "SE2b-1",
+      "code": "SE2b",
+      "name": "Identification d'un echangeur (sortie a droite)",
+      "category": "direction",
+      "categoryLabel": "Signalisation directionnelle",
+      "image": "panneaux/SE2b-1.jpeg",
+      "source": {
+        "page": 29,
+        "index": 1
+      }
+    },
+    {
+      "id": "SE2b-2",
+      "code": "SE2b",
+      "name": "Identification d'un echangeur (sortie a droite)",
+      "category": "direction",
+      "categoryLabel": "Signalisation directionnelle",
+      "image": "panneaux/SE2b-2.jpeg",
+      "source": {
+        "page": 29,
+        "index": 12
+      }
+    },
+    {
+      "id": "SE2c",
+      "code": "SE2c",
+      "name": "Identification d'un echangeur (sortie a gauche exceptionnelle)",
+      "category": "direction",
+      "categoryLabel": "Signalisation directionnelle",
+      "image": "panneaux/SE2c.jpeg",
+      "source": {
+        "page": 29,
+        "index": 18
+      }
+    },
+    {
+      "id": "SE3",
+      "code": "SE3",
+      "name": "Bifurcation autoroutiere",
+      "category": "direction",
+      "categoryLabel": "Signalisation directionnelle",
+      "image": "panneaux/SE3.jpeg",
+      "source": {
+        "page": 29,
+        "index": 19
+      }
+    },
+    {
+      "id": "SI1a",
+      "code": "SI1a",
+      "name": "Direction interdite aux vehicules de transport de marchandises",
+      "category": "direction",
+      "categoryLabel": "Signalisation directionnelle",
+      "image": "panneaux/SI1a.jpeg",
+      "source": {
+        "page": 29,
+        "index": 20
+      }
+    },
+    {
+      "id": "SI1b",
+      "code": "SI1b",
+      "name": "Direction interdite aux marchandises de plus du PTAC indique",
+      "category": "direction",
+      "categoryLabel": "Signalisation directionnelle",
+      "image": "panneaux/SI1b.jpeg",
+      "source": {
+        "page": 29,
+        "index": 21
+      }
+    },
+    {
+      "id": "SI2",
+      "code": "SI2",
+      "name": "Direction interdite aux cycles",
+      "category": "direction",
+      "categoryLabel": "Signalisation directionnelle",
+      "image": "panneaux/SI2.jpeg",
+      "source": {
+        "page": 29,
+        "index": 22
+      }
+    },
+    {
+      "id": "SI3",
+      "code": "SI3",
+      "name": "Direction interdite aux transports en commun de personnes",
+      "category": "direction",
+      "categoryLabel": "Signalisation directionnelle",
+      "image": "panneaux/SI3.jpeg",
+      "source": {
+        "page": 29,
+        "index": 23
+      }
+    },
+    {
+      "id": "SI4",
+      "code": "SI4",
+      "name": "Direction interdite aux cyclomoteurs",
+      "category": "direction",
+      "categoryLabel": "Signalisation directionnelle",
+      "image": "panneaux/SI4.jpeg",
+      "source": {
+        "page": 29,
+        "index": 24
+      }
+    },
+    {
+      "id": "SI5",
+      "code": "SI5",
+      "name": "Direction interdite aux vehicules trop longs",
+      "category": "direction",
+      "categoryLabel": "Signalisation directionnelle",
+      "image": "panneaux/SI5.jpeg",
+      "source": {
+        "page": 29,
+        "index": 2
+      }
+    },
+    {
+      "id": "SI6",
+      "code": "SI6",
+      "name": "Direction interdite aux vehicules trop larges",
+      "category": "direction",
+      "categoryLabel": "Signalisation directionnelle",
+      "image": "panneaux/SI6.jpeg",
+      "source": {
+        "page": 29,
+        "index": 3
+      }
+    },
+    {
+      "id": "SI7",
+      "code": "SI7",
+      "name": "Direction interdite aux vehicules trop hauts",
+      "category": "direction",
+      "categoryLabel": "Signalisation directionnelle",
+      "image": "panneaux/SI7.jpeg",
+      "source": {
+        "page": 29,
+        "index": 4
+      }
+    },
+    {
+      "id": "SI8",
+      "code": "SI8",
+      "name": "Direction interdite aux vehicules trop lourds (PTAC)",
+      "category": "direction",
+      "categoryLabel": "Signalisation directionnelle",
+      "image": "panneaux/SI8.jpeg",
+      "source": {
+        "page": 29,
+        "index": 5
+      }
+    },
+    {
+      "id": "SI9",
+      "code": "SI9",
+      "name": "Direction interdite aux vehicules trop lourds par essieu",
+      "category": "direction",
+      "categoryLabel": "Signalisation directionnelle",
+      "image": "panneaux/SI9.jpeg",
+      "source": {
+        "page": 29,
+        "index": 6
+      }
+    },
+    {
+      "id": "SI10",
+      "code": "SI10",
+      "name": "Direction interdite aux marchandises explosives ou inflammables",
+      "category": "direction",
+      "categoryLabel": "Signalisation directionnelle",
+      "image": "panneaux/SI10.jpeg",
+      "source": {
+        "page": 29,
+        "index": 7
+      }
+    },
+    {
+      "id": "SI11",
+      "code": "SI11",
+      "name": "Direction interdite aux marchandises polluant les eaux",
+      "category": "direction",
+      "categoryLabel": "Signalisation directionnelle",
+      "image": "panneaux/SI11.jpeg",
+      "source": {
+        "page": 29,
+        "index": 8
+      }
+    },
+    {
+      "id": "SI12",
+      "code": "SI12",
+      "name": "Direction interdite aux marchandises dangereuses",
+      "category": "direction",
+      "categoryLabel": "Signalisation directionnelle",
+      "image": "panneaux/SI12.jpeg",
+      "source": {
+        "page": 29,
+        "index": 9
+      }
+    },
+    {
+      "id": "SI13",
+      "code": "SI13",
+      "name": "Direction interdite aux motocyclettes",
+      "category": "direction",
+      "categoryLabel": "Signalisation directionnelle",
+      "image": "panneaux/SI13.jpeg",
+      "source": {
+        "page": 29,
+        "index": 10
+      }
+    },
+    {
+      "id": "SI14",
+      "code": "SI14",
+      "name": "Direction interdite aux vehicules avec caravane ou remorque de plus de 250 kg",
+      "category": "direction",
+      "categoryLabel": "Signalisation directionnelle",
+      "image": "panneaux/SI14.jpeg",
+      "source": {
+        "page": 29,
+        "index": 11
+      }
+    },
+    {
+      "id": "SC1a",
+      "code": "SC1a",
+      "name": "Direction conseillee aux vehicules de transport de marchandises",
+      "category": "direction",
+      "categoryLabel": "Signalisation directionnelle",
+      "image": "panneaux/SC1a.jpeg",
+      "source": {
+        "page": 29,
+        "index": 13
+      }
+    },
+    {
+      "id": "SC1b",
+      "code": "SC1b",
+      "name": "Direction conseillee aux marchandises de plus du PTAC indique",
+      "category": "direction",
+      "categoryLabel": "Signalisation directionnelle",
+      "image": "panneaux/SC1b.jpeg",
+      "source": {
+        "page": 29,
+        "index": 14
+      }
+    },
+    {
+      "id": "SC2",
+      "code": "SC2",
+      "name": "Direction conseillee aux cycles",
+      "category": "direction",
+      "categoryLabel": "Signalisation directionnelle",
+      "image": "panneaux/SC2.jpeg",
+      "source": {
+        "page": 29,
+        "index": 15
+      }
+    },
+    {
+      "id": "SC3",
+      "code": "SC3",
+      "name": "Direction conseillee aux transports en commun de personnes",
+      "category": "direction",
+      "categoryLabel": "Signalisation directionnelle",
+      "image": "panneaux/SC3.jpeg",
+      "source": {
+        "page": 29,
+        "index": 16
+      }
+    },
+    {
+      "id": "SC4",
+      "code": "SC4",
+      "name": "Direction conseillee aux cyclomoteurs",
+      "category": "direction",
+      "categoryLabel": "Signalisation directionnelle",
+      "image": "panneaux/SC4.jpeg",
+      "source": {
+        "page": 29,
+        "index": 17
+      }
+    },
+    {
+      "id": "J1",
+      "code": "J1",
+      "name": "Balisage des virages",
+      "category": "balise",
+      "categoryLabel": "Balise",
+      "image": "panneaux/J1.jpeg",
+      "source": {
+        "page": 33,
+        "index": 1
+      }
+    },
+    {
+      "id": "J1bis",
+      "code": "J1bis",
+      "name": "Balisage des virages (routes frequemment enneigees)",
+      "category": "balise",
+      "categoryLabel": "Balise",
+      "image": "panneaux/J1bis.jpeg",
+      "source": {
+        "page": 33,
+        "index": 11
+      }
+    },
+    {
+      "id": "J3",
+      "code": "J3",
+      "name": "Signalisation de position des intersections de routes",
+      "category": "balise",
+      "categoryLabel": "Balise",
+      "image": "panneaux/J3.jpeg",
+      "source": {
+        "page": 33,
+        "index": 12
+      }
+    },
+    {
+      "id": "J4-1",
+      "code": "J4",
+      "name": "Balisage de virages (chevrons)",
+      "category": "balise",
+      "categoryLabel": "Balise",
+      "image": "panneaux/J4-1.jpeg",
+      "source": {
+        "page": 33,
+        "index": 13
+      }
+    },
+    {
+      "id": "J4-2",
+      "code": "J4",
+      "name": "Balisage de virages (chevrons)",
+      "category": "balise",
+      "categoryLabel": "Balise",
+      "image": "panneaux/J4-2.jpeg",
+      "source": {
+        "page": 33,
+        "index": 14
+      }
+    },
+    {
+      "id": "J5",
+      "code": "J5",
+      "name": "Signalisation des tetes d'ilots directionnels (contournement par la droite)",
+      "category": "balise",
+      "categoryLabel": "Balise",
+      "image": "panneaux/J5.jpeg",
+      "source": {
+        "page": 33,
+        "index": 15
+      }
+    },
+    {
+      "id": "J6",
+      "code": "J6",
+      "name": "Delineateur - balisage des limites de chaussee",
+      "category": "balise",
+      "categoryLabel": "Balise",
+      "image": "panneaux/J6.jpeg",
+      "source": {
+        "page": 33,
+        "index": 16
+      }
+    },
+    {
+      "id": "J7",
+      "code": "J7",
+      "name": "Manche a air - signalement d'un vent lateral violent",
+      "category": "balise",
+      "categoryLabel": "Balise",
+      "image": "panneaux/J7.jpeg",
+      "source": {
+        "page": 33,
+        "index": 17
+      }
+    },
+    {
+      "id": "J10",
+      "code": "J10",
+      "name": "Balise pour passage a niveau",
+      "category": "balise",
+      "categoryLabel": "Balise",
+      "image": "panneaux/J10.jpeg",
+      "source": {
+        "page": 33,
+        "index": 18
+      }
+    },
+    {
+      "id": "J11",
+      "code": "J11",
+      "name": "Renforcement d'un marquage continu permanent",
+      "category": "balise",
+      "categoryLabel": "Balise",
+      "image": "panneaux/J11.jpeg",
+      "source": {
+        "page": 33,
+        "index": 2
+      }
+    },
+    {
+      "id": "J12",
+      "code": "J12",
+      "name": "Renforcement d'un marquage permanent en divergent",
+      "category": "balise",
+      "categoryLabel": "Balise",
+      "image": "panneaux/J12.jpeg",
+      "source": {
+        "page": 33,
+        "index": 3
+      }
+    },
+    {
+      "id": "J13",
+      "code": "J13",
+      "name": "Balise de signalisation d'obstacle",
+      "category": "balise",
+      "categoryLabel": "Balise",
+      "image": "panneaux/J13.jpeg",
+      "source": {
+        "page": 33,
+        "index": 4
+      }
+    },
+    {
+      "id": "J14a",
+      "code": "J14a",
+      "name": "Balises de musoir - divergence des voies",
+      "category": "balise",
+      "categoryLabel": "Balise",
+      "image": "panneaux/J14a.jpeg",
+      "source": {
+        "page": 33,
+        "index": 5
+      }
+    },
+    {
+      "id": "J14b",
+      "code": "J14b",
+      "name": "Balises de musoir - divergence des voies",
+      "category": "balise",
+      "categoryLabel": "Balise",
+      "image": "panneaux/J14b.jpeg",
+      "source": {
+        "page": 33,
+        "index": 6
+      }
+    },
+    {
+      "id": "G1",
+      "code": "G1",
+      "name": "Position d'un passage a niveau / aire de danger aerien",
+      "category": "passage_niveau",
+      "categoryLabel": "Passage a niveau",
+      "image": "panneaux/G1.jpeg",
+      "source": {
+        "page": 33,
+        "index": 7
+      }
+    },
+    {
+      "id": "G1bis",
+      "code": "G1bis",
+      "name": "Passage a niveau a une voie avec signalisation automatique",
+      "category": "passage_niveau",
+      "categoryLabel": "Passage a niveau",
+      "image": "panneaux/G1bis.jpeg",
+      "source": {
+        "page": 33,
+        "index": 8
+      }
+    },
+    {
+      "id": "G1a",
+      "code": "G1a",
+      "name": "Passage a niveau a plusieurs voies sans barriere",
+      "category": "passage_niveau",
+      "categoryLabel": "Passage a niveau",
+      "image": "panneaux/G1a.jpeg",
+      "source": {
+        "page": 33,
+        "index": 9
+      }
+    },
+    {
+      "id": "G1a_bis",
+      "code": "G1a_bis",
+      "name": "Passage a niveau a plusieurs voies avec signalisation automatique",
+      "category": "passage_niveau",
+      "categoryLabel": "Passage a niveau",
+      "image": "panneaux/G1a_bis.jpeg",
+      "source": {
+        "page": 33,
+        "index": 10
+      }
+    },
+    {
+      "id": "AK2",
+      "code": "AK2",
+      "name": "Cassis ou dos d'ane (temporaire)",
+      "category": "temporaire",
+      "categoryLabel": "Signalisation temporaire / chantier",
+      "image": "panneaux/AK2.jpeg",
+      "source": {
+        "page": 39,
+        "index": 1
+      }
+    },
+    {
+      "id": "AK3",
+      "code": "AK3",
+      "name": "Chaussee retrecie (temporaire)",
+      "category": "temporaire",
+      "categoryLabel": "Signalisation temporaire / chantier",
+      "image": "panneaux/AK3.jpeg",
+      "source": {
+        "page": 39,
+        "index": 12
+      }
+    },
+    {
+      "id": "AK4",
+      "code": "AK4",
+      "name": "Chaussee glissante (temporaire)",
+      "category": "temporaire",
+      "categoryLabel": "Signalisation temporaire / chantier",
+      "image": "panneaux/AK4.jpeg",
+      "source": {
+        "page": 39,
+        "index": 18
+      }
+    },
+    {
+      "id": "AK5",
+      "code": "AK5",
+      "name": "Travaux",
+      "category": "temporaire",
+      "categoryLabel": "Signalisation temporaire / chantier",
+      "image": "panneaux/AK5.jpeg",
+      "source": {
+        "page": 39,
+        "index": 19
+      }
+    },
+    {
+      "id": "AK14",
+      "code": "AK14",
+      "name": "Autres dangers (temporaire)",
+      "category": "temporaire",
+      "categoryLabel": "Signalisation temporaire / chantier",
+      "image": "panneaux/AK14.jpeg",
+      "source": {
+        "page": 39,
+        "index": 20
+      }
+    },
+    {
+      "id": "AK17",
+      "code": "AK17",
+      "name": "Annonce de signaux lumineux reglant la circulation",
+      "category": "temporaire",
+      "categoryLabel": "Signalisation temporaire / chantier",
+      "image": "panneaux/AK17.jpeg",
+      "source": {
+        "page": 39,
+        "index": 21
+      }
+    },
+    {
+      "id": "AK22",
+      "code": "AK22",
+      "name": "Projection de gravillons",
+      "category": "temporaire",
+      "categoryLabel": "Signalisation temporaire / chantier",
+      "image": "panneaux/AK22.jpeg",
+      "source": {
+        "page": 39,
+        "index": 22
+      }
+    },
+    {
+      "id": "AK30",
+      "code": "AK30",
+      "name": "Bouchon",
+      "category": "temporaire",
+      "categoryLabel": "Signalisation temporaire / chantier",
+      "image": "panneaux/AK30.jpeg",
+      "source": {
+        "page": 39,
+        "index": 23
+      }
+    },
+    {
+      "id": "AK31",
+      "code": "AK31",
+      "name": "Accident",
+      "category": "temporaire",
+      "categoryLabel": "Signalisation temporaire / chantier",
+      "image": "panneaux/AK31.jpeg",
+      "source": {
+        "page": 39,
+        "index": 24
+      }
+    },
+    {
+      "id": "K1",
+      "code": "K1",
+      "name": "Fanion - obstacle temporaire de faible importance",
+      "category": "temporaire",
+      "categoryLabel": "Signalisation temporaire / chantier",
+      "image": "panneaux/K1.jpeg",
+      "source": {
+        "page": 39,
+        "index": 2
+      }
+    },
+    {
+      "id": "K2-1",
+      "code": "K2",
+      "name": "Barrage - signalisation de position (fin de chantier)",
+      "category": "temporaire",
+      "categoryLabel": "Signalisation temporaire / chantier",
+      "image": "panneaux/K2-1.jpeg",
+      "source": {
+        "page": 39,
+        "index": 3
+      }
+    },
+    {
+      "id": "K2-2",
+      "code": "K2",
+      "name": "Barrage - signalisation de position (chevrons)",
+      "category": "temporaire",
+      "categoryLabel": "Signalisation temporaire / chantier",
+      "image": "panneaux/K2-2.jpeg",
+      "source": {
+        "page": 39,
+        "index": 4
+      }
+    },
+    {
+      "id": "K5a",
+      "code": "K5a",
+      "name": "Dispositif conique (cone de chantier)",
+      "category": "temporaire",
+      "categoryLabel": "Signalisation temporaire / chantier",
+      "image": "panneaux/K5a.jpeg",
+      "source": {
+        "page": 39,
+        "index": 5
+      }
+    },
+    {
+      "id": "K5b",
+      "code": "K5b",
+      "name": "Piquet de balisage",
+      "category": "temporaire",
+      "categoryLabel": "Signalisation temporaire / chantier",
+      "image": "panneaux/K5b.jpeg",
+      "source": {
+        "page": 39,
+        "index": 6
+      }
+    },
+    {
+      "id": "K5c",
+      "code": "K5c",
+      "name": "Balise d'alignement",
+      "category": "temporaire",
+      "categoryLabel": "Signalisation temporaire / chantier",
+      "image": "panneaux/K5c.jpeg",
+      "source": {
+        "page": 39,
+        "index": 7
+      }
+    },
+    {
+      "id": "K5d",
+      "code": "K5d",
+      "name": "Balise de guidage",
+      "category": "temporaire",
+      "categoryLabel": "Signalisation temporaire / chantier",
+      "image": "panneaux/K5d.jpeg",
+      "source": {
+        "page": 39,
+        "index": 8
+      }
+    },
+    {
+      "id": "K8-1",
+      "code": "K8",
+      "name": "Signal de position d'une deviation ou d'un retrecissement",
+      "category": "temporaire",
+      "categoryLabel": "Signalisation temporaire / chantier",
+      "image": "panneaux/K8-1.jpeg",
+      "source": {
+        "page": 39,
+        "index": 9
+      }
+    },
+    {
+      "id": "K8-2",
+      "code": "K8",
+      "name": "Signal de position d'une deviation ou d'un retrecissement",
+      "category": "temporaire",
+      "categoryLabel": "Signalisation temporaire / chantier",
+      "image": "panneaux/K8-2.jpeg",
+      "source": {
+        "page": 39,
+        "index": 10
+      }
+    },
+    {
+      "id": "K10",
+      "code": "K10",
+      "name": "Signal pour regler manuellement la circulation",
+      "category": "temporaire",
+      "categoryLabel": "Signalisation temporaire / chantier",
+      "image": "panneaux/K10.jpeg",
+      "source": {
+        "page": 39,
+        "index": 11
+      }
+    },
+    {
+      "id": "K14",
+      "code": "K14",
+      "name": "Ruban de delimitation de chantier",
+      "category": "temporaire",
+      "categoryLabel": "Signalisation temporaire / chantier",
+      "image": "panneaux/K14.jpeg",
+      "source": {
+        "page": 39,
+        "index": 13
+      }
+    },
+    {
+      "id": "K15-1",
+      "code": "K15",
+      "name": "Portique - presignalisation de gabarit limite",
+      "category": "temporaire",
+      "categoryLabel": "Signalisation temporaire / chantier",
+      "image": "panneaux/K15-1.jpeg",
+      "source": {
+        "page": 39,
+        "index": 14
+      }
+    },
+    {
+      "id": "K15-2",
+      "code": "K15",
+      "name": "Portique - presignalisation de gabarit limite",
+      "category": "temporaire",
+      "categoryLabel": "Signalisation temporaire / chantier",
+      "image": "panneaux/K15-2.jpeg",
+      "source": {
+        "page": 39,
+        "index": 15
+      }
+    },
+    {
+      "id": "K16",
+      "code": "K16",
+      "name": "Separateur modulaire de voie",
+      "category": "temporaire",
+      "categoryLabel": "Signalisation temporaire / chantier",
+      "image": "panneaux/K16.jpeg",
+      "source": {
+        "page": 39,
+        "index": 16
+      }
+    },
+    {
+      "id": "KC1",
+      "code": "KC1",
+      "name": "Indication de chantier important ou de situations diverses",
+      "category": "temporaire",
+      "categoryLabel": "Signalisation temporaire / chantier",
+      "image": "panneaux/KC1.jpeg",
+      "source": {
+        "page": 39,
+        "index": 17
+      }
+    }
+  ]
+}

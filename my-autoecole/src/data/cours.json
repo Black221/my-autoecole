@@ -1,0 +1,302 @@
+{
+  "meta": {
+    "titre": "Cours de code de la route",
+    "contexte": "Sénégal (limites de vitesse adaptées) — références françaises pour les panneaux",
+    "source": "Fiches de cours (courses/*.jpeg) + liste officielle des panneaux",
+    "themesCount": 19
+  },
+  "themes": [
+    {
+      "id": "generalites",
+      "titre": "Règles générales et permis B",
+      "resume": "Notions de base : priorité par défaut, définition du permis B, charges et passagers.",
+      "regles": [
+        "Les routes ne sont prioritaires que par une signalisation (horizontale ou verticale). En l'absence de signalisation, c'est la priorité à droite qui s'impose.",
+        "Le permis B concerne les véhicules dont le poids n'excède pas 3,5 t et dont le nombre de places ne dépasse pas 8 outre le siège du conducteur (8+1 = 9).",
+        "Chargement : il ne doit pas déborder vers l'avant ; à l'arrière il est permis jusqu'à 3 m. À partir d'1 m de dépassement, le signaler avec un dispositif réfléchissant rouge, et de nuit ajouter un feu rouge.",
+        "Transport d'enfants : un enfant de moins de 10 ans compte pour ½ personne tant que leur nombre ne dépasse pas 10 (10 enfants = 5 adultes, 11 enfants = 6 adultes).",
+        "Après l'obtention du permis, la vitesse est limitée à 90 km/h pendant 1 an.",
+        "La ceinture de sécurité est obligatoire en agglomération, sur autoroute et en campagne, à toutes heures.",
+        "Un véhicule lent est un véhicule qui roule à moins de 60 km/h.",
+        "Une route est un espace aménagé pour la circulation des véhicules et des piétons, comprenant la chaussée, le trottoir et les signalisations horizontales ou verticales."
+      ]
+    },
+    {
+      "id": "vitesses",
+      "titre": "Limites de vitesse",
+      "resume": "Vitesses maximales selon le type de voie (contexte Sénégal).",
+      "regles": [
+        "Entrée d'agglomération (ville) : 40 km/h au Sénégal (50 km/h selon la convention internationale).",
+        "En agglomération, il est interdit de klaxonner sauf en cas de danger immédiat.",
+        "Lieu-dit ou village, et cours d'eau : réduire la vitesse.",
+        "Route départementale : 90 km/h.",
+        "Route nationale : 100 km/h.",
+        "Autoroute : 100 km/h.",
+        "Jeune conducteur (1 an après le permis) : 90 km/h maximum."
+      ]
+    },
+    {
+      "id": "categories-panneaux",
+      "titre": "Les catégories de panneaux",
+      "resume": "Trois grandes familles de panneaux et distances d'annonce du danger.",
+      "regles": [
+        "Il existe trois catégories de panneaux : les panneaux de danger (triangles), les panneaux de prescription absolue (ronds), les panneaux d'indication (carrés).",
+        "On doit toujours respecter un panneau, même si on n'en comprend pas immédiatement la raison : il est placé là pour la sécurité de tous.",
+        "Panneaux de danger : le danger commence 50 m après le panneau en agglomération, 150 m en campagne et 200 m sur autoroute. Exception : le signal de position.",
+        "Les panneaux de danger temporaires (fond jaune, série AK) annoncent un danger lié à un chantier ou à une situation temporaire."
+      ]
+    },
+    {
+      "id": "priorites",
+      "titre": "Les priorités",
+      "resume": "Les trois cas prioritaires, les cas de priorité à droite et les cas de perte de priorité.",
+      "regles": [
+        "Les 3 cas prioritaires : (1) devant le panneau AB6 (route à caractère prioritaire) je suis prioritaire à toutes les intersections ; (2) priorité ponctuelle (je suis prioritaire à l'intersection annoncée seulement) ; (3) passage protégé (je suis prioritaire à la prochaine intersection).",
+        "Devant l'AB6, je reste prioritaire jusqu'à ce que je croise : un stop, un J2 (cédez le passage), un feu rouge, un panneau AB7, un passage à niveau non gardé, ou un agent qui m'interdit de passer.",
+        "Cas de priorité à droite : intersection sans signalisation, intersection de deux routes secondaires, intersection de deux routes à grande circulation, balise J3, feu jaune clignotant (s'il n'y a pas de panneaux), feux en panne, rond-point sans signalisation.",
+        "Sur un rond-point avec un panneau « cédez le passage », on applique la priorité à gauche.",
+        "Cas où l'on perd la priorité : devant un stop, un J2 (cédez le passage), un feu rouge, un AB7, un passage à niveau non gardé, les véhicules prioritaires (pompiers, ambulance) utilisant leur avertisseur, un agent qui m'interdit de passer, ou lorsque je débouche d'un chemin de terre.",
+        "Dépassement possible à l'intersection : devant l'AB6, une priorité ponctuelle, un passage protégé, un passage à niveau gardé, un feu vert, ou un agent qui me fait signe de passer."
+      ]
+    },
+    {
+      "id": "feux-vehicule",
+      "titre": "Les feux du véhicule",
+      "resume": "Feux à l'avant, à l'arrière, feux de gabarit et signalisation de panne.",
+      "regles": [
+        "Feux de route (phares) : éclairent au moins 100 m, utilisés en campagne.",
+        "Feux de croisement (codes) : éclairent au moins 30 m, utilisés en agglomération.",
+        "Feux de position (veilleuses) : n'éclairent pas mais sont visibles à 150 m ; utilisés en agglomération bien éclairée ou en stationnement mal éclairé.",
+        "Feux de brouillard : facultatifs, éclairent au moins 30 m, utilisés par temps de pluie, brouillard ou neige ; ils peuvent remplacer les feux de croisement.",
+        "À l'arrière : feux stop (s'allument au freinage, visibles à 150 m), feux de position (visibles à 150 m), feux de plaque, catadioptres (ne s'allument pas), feux de brouillard arrière, feux de recul (facultatifs), clignotants.",
+        "En cas de panne : placer le triangle de présignalisation à 30 m (visible à 100 m), puis allumer les feux de détresse.",
+        "Feux de gabarit ou d'encombrement : identifient les véhicules dont la largeur dépasse 2,10 m ; placés aux extrémités, lumière blanche vers l'avant et rouge vers l'arrière."
+      ]
+    },
+    {
+      "id": "marquages",
+      "titre": "Les marquages au sol (horizontaux)",
+      "resume": "Lignes de chaussée et leurs significations.",
+      "regles": [
+        "Ligne continue : interdit de la franchir et même de la chevaucher.",
+        "Ligne discontinue : 3 m de ligne et 10 m d'intervalle ; sépare les voies ; on peut la franchir pour dépasser.",
+        "Ligne d'avertissement : 3 m de ligne et 1,33 m d'intervalle ; annonce une ligne continue ; on ne peut pas la franchir pour dépasser.",
+        "Flèches de rabattement : au nombre de 3, elles annoncent une ligne continue et demandent de serrer à droite.",
+        "Ligne de rive : 3 m de ligne et 3,50 m d'intervalle ; délimite la chaussée ; on peut la franchir pour un arrêt ou un stationnement.",
+        "Ligne mixte : une ligne continue doublée d'une discontinue ; si la discontinue est du côté de ma voie, je peux la franchir pour dépasser.",
+        "Les zébras : hachures blanches sur la chaussée ; il est interdit de s'y arrêter, d'y circuler et d'y stationner."
+      ]
+    },
+    {
+      "id": "depassement",
+      "titre": "Le dépassement",
+      "resume": "Conditions, procédure et distances latérales pour dépasser.",
+      "regles": [
+        "Conditions pour dépasser : s'assurer que rien ne l'interdit (marquages horizontaux ou verticaux), que je ne suis pas sur le point d'être dépassé, et avoir une bonne visibilité pour se rabattre sans gêner l'usager venant en sens inverse.",
+        "Procédure : signaler mon intention, déboîter et rouler à une vitesse supérieure, puis me rabattre à droite lorsque j'aperçois le véhicule dépassé dans mon rétroviseur intérieur.",
+        "Distance latérale de 1 m : pour dépasser les piétons, les deux-roues, les cavaliers et les véhicules dont la largeur ne dépasse pas 1 m — 1 m en agglomération, 1,50 m en campagne.",
+        "Distance latérale de 0,50 m : pour dépasser les véhicules dont la largeur dépasse 1 m, en agglomération comme en campagne."
+      ]
+    },
+    {
+      "id": "tourner-gauche",
+      "titre": "Tourner à gauche",
+      "resume": "Disposition pour tourner à gauche selon le nombre de voies.",
+      "regles": [
+        "S'assurer que rien ne l'interdit (marquages horizontaux et verticaux) et que je ne suis pas sur le point d'être dépassé.",
+        "Signaler mon intention et réduire la vitesse.",
+        "S'il y a 2 voies : je prends le milieu sans dépasser l'axe. S'il y a 3 voies : je prends le milieu sans dépasser l'axe.",
+        "Arriver à l'intersection, respecter l'ordre de passage des véhicules, tourner et se rabattre rapidement à droite.",
+        "Dans un sens unique : je serre complètement à gauche."
+      ]
+    },
+    {
+      "id": "stationnement",
+      "titre": "L'arrêt et le stationnement",
+      "resume": "Stationnements interdits, gênant, abusif et les façons de stationner.",
+      "regles": [
+        "Stationnement interdit : aux abords d'une ligne continue, à proximité d'une intersection, d'un virage ou d'un sommet de côte, devant un garage, devant un panneau de signalisation, sur les ponts ou tunnels, et en double file.",
+        "Stationnement gênant : à moins de 15 m de part et d'autre des arrêts de bus et sur un passage piéton.",
+        "Stationnement abusif : stationner plus de 7 jours au même endroit.",
+        "Les 3 façons de stationner : en créneau, en bataille et en épis."
+      ]
+    },
+    {
+      "id": "balises",
+      "titre": "Les balises",
+      "resume": "Balises de virage, d'intersection et de guidage.",
+      "regles": [
+        "J1 : balise de virage à chapeau de peinture rouge, placée dans les zones enneigées ou poussiéreuses.",
+        "J2 : cédez le passage à gauche et à droite.",
+        "J3 : balise d'intersection pour rendre l'intersection visible (priorité à droite).",
+        "J4 : balise de virage, placée dans les virages dangereux et rétrécis.",
+        "J5 : contournement de tête d'îlot.",
+        "J6 : délinéateur pour délimiter la chaussée ou l'accotement.",
+        "J7 : manche à air, signale un vent latéral (écart de vent).",
+        "Balises de passage à niveau : placées à 50 m, 100 m et 150 m du rail (le nombre de barres diminue en approchant)."
+      ]
+    },
+    {
+      "id": "autoroute",
+      "titre": "L'autoroute",
+      "resume": "Reconnaissance de l'autoroute, bifurcations et jonctions.",
+      "regles": [
+        "On reconnaît l'autoroute : par le panneau qui la matérialise, par la voie séparative, par les glissières de protection, par le terre-plein central qui sépare les deux voies, et par la bande d'arrêt d'urgence (20 m de ligne et 6 m d'intervalle).",
+        "Bifurcation : c'est la séparation de l'autoroute en 2 branches constituant chacune une autoroute.",
+        "Jonction : c'est quand 2 autoroutes se joignent pour former une seule.",
+        "La bande blanche (à l'arrière) : se trouve sur les véhicules dont le poids dépasse 3,5 t."
+      ]
+    },
+    {
+      "id": "distances",
+      "titre": "Distances de sécurité, de freinage et d'arrêt",
+      "resume": "Calculs et valeurs par tranche de vitesse.",
+      "regles": [
+        "Distance de sécurité : multiplier le chiffre des dizaines de la vitesse par 3. Ex : 60 km/h → 6 × 3 = 18 m.",
+        "Distance de freinage : multiplier le chiffre des dizaines par lui-même. Ex : 50 km/h → 5 × 5 = 25 m. Sur chaussée mouillée, elle est multipliée par 2.",
+        "Distance d'arrêt sur sol sec : chiffre des dizaines multiplié par lui-même ; en cas de pluie on le multiplie par 1,5.",
+        "Distances de sécurité par vitesse : ville (40-50 km/h) 28 à 30 m ; campagne (80-90 km/h) 50 à 54 m ; voie rapide (100-110 km/h) 60 à 66 m ; autoroute (120-130 km/h) 70 à 78 m."
+      ]
+    },
+    {
+      "id": "accident",
+      "titre": "Conduite à tenir en cas d'accident",
+      "resume": "Protéger, alerter, secourir.",
+      "regles": [
+        "Protéger : se garer convenablement à 100 m, placer le triangle de présignalisation à plus de 30 m (visible à 100 m), couper le contact des véhicules accidentés et débrancher la batterie si besoin.",
+        "Alerter : la police en agglomération et la gendarmerie en campagne, en donnant des renseignements précis.",
+        "Secourir : ne donner ni eau ni alcool à un blessé, ne jamais le transporter dans sa voiture, ne tirer aucun de ses membres, ne jamais retirer le casque d'un motard, et couvrir le blessé pour éviter qu'il prenne froid."
+      ]
+    },
+    {
+      "id": "suspension-permis",
+      "titre": "Les cas de suspension du permis",
+      "resume": "Infractions entraînant la suspension du permis.",
+      "regles": [
+        "Homicide involontaire.",
+        "Délit de fuite.",
+        "Circulation en sens interdit.",
+        "Brusque changement de direction.",
+        "Conduite en état d'ivresse.",
+        "Permis non conforme.",
+        "Accélérer quand on est sur le point d'être dépassé.",
+        "Non-respect de l'obligation d'assurance.",
+        "Non-respect de l'agent en uniforme.",
+        "Non-respect de la signalisation imposée."
+      ]
+    },
+    {
+      "id": "pieces-vehicule",
+      "titre": "Les pièces et documents du véhicule",
+      "resume": "Documents obligatoires et lettres de gabarit A-O-D.",
+      "regles": [
+        "La carte grise : c'est la carte d'identité du véhicule.",
+        "La vignette : c'est le droit de circuler.",
+        "L'assurance : elle assure le véhicule et ses passagers.",
+        "La visite technique : elle contrôle l'état du véhicule ; renouvelée tous les ans à partir de 3 ans après la mise en circulation d'un véhicule neuf.",
+        "Lettre A (Acoustique) : à l'arrière d'un ensemble d'au moins 14 m de long et plus de 2,50 m de large équipé d'un feu vert ; pour le dépasser, signaux sonores le jour et lumineux la nuit.",
+        "Lettre O (Optique) : comme l'acoustique, mais on utilise les signaux lumineux de jour comme de nuit.",
+        "Lettre D (Danger) : à l'avant et en haut d'un ensemble d'au moins 14 m de long et plus de 2,50 m de large."
+      ]
+    },
+    {
+      "id": "agents",
+      "titre": "Les gestes des agents et cas particuliers",
+      "resume": "Signification des gestes et priorité des forces de l'ordre.",
+      "regles": [
+        "Lorsqu'un agent règle la circulation, je dois obéir à ses gestes sans tenir compte de la signalisation, des feux ni des règles de circulation.",
+        "Agent de profil : je m'engage. Agent qui lève le bras : je m'arrête. Agent de face ou de dos : je m'arrête. Agent qui balance le bras de haut en bas : je ralentis. Geste circulaire de l'avant-bras : « circulez / accélérez ».",
+        "Les forces de l'ordre : gendarmes hors agglomération, policiers en agglomération, CRS sur autoroutes et routes, douaniers. Leurs signes prévalent sur toute signalisation (marquage, panneau ou feu).",
+        "Colonnes et cortèges : il est interdit de couper une colonne ou un cortège en marche (convoi militaire ou de police, mariage, sépulture) ou de s'y insérer ; je leur cède le passage s'ils sont engagés dans une intersection."
+      ]
+    },
+    {
+      "id": "derapage",
+      "titre": "Conduite en cas de dérapage",
+      "resume": "Réactions correctes en cas de dérapage.",
+      "regles": [
+        "Éviter de freiner.",
+        "Être maître de son volant (pas de braquages hasardeux et excessifs).",
+        "Accélérer légèrement pour donner une certaine adhérence au pneu.",
+        "Braquer du côté où l'arrière du véhicule dérape."
+      ]
+    },
+    {
+      "id": "conduite-demarrage",
+      "titre": "Le poste de conduite et le démarrage",
+      "resume": "Réglages, pédales, point de patinage, démarrage et arrêt.",
+      "regles": [
+        "Avant de démarrer, régler : la distance siège/pédalier (pouvoir débrayer la jambe gauche légèrement fléchie), la hauteur du siège (visibilité optimale), le dossier (se tenir droit) et la profondeur du volant (bras non complètement tendus).",
+        "Les trois pédales : embrayage (la plus à gauche, accouple/désaccouple le moteur et la transmission), frein (force proportionnelle à la pression), accélérateur (fait avancer le véhicule).",
+        "Débrayer = enfoncer la pédale d'embrayage ; embrayer = relever la pédale d'embrayage.",
+        "Le point de patinage remet en contact les roues et le moteur en douceur ; c'est la clé pour réussir les démarrages et les arrêts.",
+        "Avant chaque départ, le conducteur surveille : les témoins du tableau de bord et le système de freinage, les différents systèmes de freinage, l'état et la pression des pneus, et la fermeture des portes.",
+        "En cas de calage : rester en première, débrayer à fond, remettre la clé en position puis redémarrer."
+      ]
+    },
+    {
+      "id": "creneau",
+      "titre": "Le créneau (stationnement)",
+      "resume": "Étapes pour réussir un créneau.",
+      "regles": [
+        "Avant la manœuvre : repérer un emplacement adapté et actionner le clignotant environ 20 m avant d'arriver au niveau de l'emplacement.",
+        "Les usagers qui réalisent une manœuvre ne sont jamais prioritaires.",
+        "Laisser une distance latérale équivalente à environ 3 rétroviseurs pour éviter de toucher l'autre véhicule.",
+        "Vérifier régulièrement la circulation, derrière soi ainsi que l'angle mort gauche.",
+        "Exécuter la manœuvre en utilisant le point de patinage, sans accélérer, pour déplacer le véhicule lentement."
+      ]
+    }
+  ],
+  "quiz": [
+    {"id": "q1", "theme": "generalites", "question": "En l'absence de toute signalisation à une intersection, quelle règle s'applique ?", "options": ["La priorité à gauche", "La priorité à droite", "Le premier arrivé passe", "Le plus gros véhicule passe"], "correct": [1], "explanation": "En l'absence de signalisation, c'est la priorité à droite qui s'impose."},
+    {"id": "q2", "theme": "generalites", "question": "Le permis B autorise la conduite de véhicules dont le poids n'excède pas :", "options": ["2,5 t", "3,5 t", "5 t", "7,5 t"], "correct": [1], "explanation": "Le permis B concerne les véhicules d'au plus 3,5 t et 8 places + le conducteur."},
+    {"id": "q3", "theme": "generalites", "question": "Combien de places passagers au maximum (outre le conducteur) pour le permis B ?", "options": ["5", "7", "8", "9"], "correct": [2], "explanation": "8 places outre le siège du conducteur (8 + 1 = 9)."},
+    {"id": "q4", "theme": "generalites", "question": "À l'arrière, un chargement peut dépasser jusqu'à quelle longueur ?", "options": ["1 m", "2 m", "3 m", "aucun dépassement autorisé"], "correct": [2], "explanation": "Jusqu'à 3 m ; au-delà d'1 m il faut un dispositif réfléchissant rouge (et un feu rouge de nuit)."},
+    {"id": "q5", "theme": "generalites", "question": "Un véhicule lent est un véhicule qui roule à :", "options": ["moins de 40 km/h", "moins de 60 km/h", "moins de 80 km/h", "moins de 90 km/h"], "correct": [1], "explanation": "Un véhicule lent roule à moins de 60 km/h."},
+    {"id": "q6", "theme": "generalites", "question": "Pendant combien de temps la vitesse est-elle limitée à 90 km/h après l'obtention du permis ?", "options": ["6 mois", "1 an", "2 ans", "3 ans"], "correct": [1], "explanation": "La vitesse est limitée à 90 km/h pendant 1 an après le permis."},
+    {"id": "q7", "theme": "vitesses", "question": "Quelle est la vitesse maximale à l'entrée d'une agglomération au Sénégal ?", "options": ["30 km/h", "40 km/h", "50 km/h", "60 km/h"], "correct": [1], "explanation": "40 km/h au Sénégal (50 km/h selon la convention internationale)."},
+    {"id": "q8", "theme": "vitesses", "question": "Vitesse maximale sur une route nationale :", "options": ["80 km/h", "90 km/h", "100 km/h", "110 km/h"], "correct": [2], "explanation": "Route nationale : 100 km/h."},
+    {"id": "q9", "theme": "vitesses", "question": "Vitesse maximale sur une route départementale :", "options": ["70 km/h", "80 km/h", "90 km/h", "100 km/h"], "correct": [2], "explanation": "Route départementale : 90 km/h."},
+    {"id": "q10", "theme": "vitesses", "question": "En agglomération, klaxonner est :", "options": ["autorisé partout", "interdit sauf danger immédiat", "interdit en toutes circonstances", "autorisé la nuit seulement"], "correct": [1], "explanation": "Interdit sauf en cas de danger immédiat."},
+    {"id": "q11", "theme": "categories-panneaux", "question": "Quelle forme ont les panneaux de danger ?", "options": ["Ronds", "Carrés", "Triangles", "Losanges"], "correct": [2], "explanation": "Les panneaux de danger sont des triangles ; les ronds = prescription absolue, les carrés = indication."},
+    {"id": "q12", "theme": "categories-panneaux", "question": "En campagne, à quelle distance commence le danger après un panneau de danger ?", "options": ["50 m", "100 m", "150 m", "200 m"], "correct": [2], "explanation": "50 m en agglomération, 150 m en campagne, 200 m sur autoroute (sauf signal de position)."},
+    {"id": "q13", "theme": "categories-panneaux", "question": "Sur autoroute, le danger annoncé par un panneau commence à :", "options": ["50 m", "150 m", "200 m", "300 m"], "correct": [2], "explanation": "200 m sur autoroute après le panneau."},
+    {"id": "q14", "theme": "priorites", "question": "Devant le panneau AB6 (route prioritaire), je perds la priorité si je rencontre :", "options": ["un stop", "un feu rouge", "un panneau AB7", "un feu vert"], "correct": [0, 1, 2], "explanation": "L'AB6 reste prioritaire jusqu'à un stop, un J2, un feu rouge, un AB7, un passage à niveau non gardé ou un agent."},
+    {"id": "q15", "theme": "priorites", "question": "Au feu jaune clignotant, sans autre panneau, quelle règle s'applique ?", "options": ["Priorité à droite", "Priorité à gauche", "Arrêt obligatoire", "Priorité à la route principale"], "correct": [0], "explanation": "Feu jaune clignotant sans panneaux : priorité à droite."},
+    {"id": "q16", "theme": "priorites", "question": "Sur un rond-point AVEC un panneau « cédez le passage », on applique :", "options": ["la priorité à droite", "la priorité à gauche", "aucune priorité", "l'arrêt systématique"], "correct": [1], "explanation": "Avec un « cédez le passage », on applique la priorité à gauche (aux véhicules déjà sur l'anneau)."},
+    {"id": "q17", "theme": "priorites", "question": "Je perds la priorité lorsque :", "options": ["je débouche d'un chemin de terre", "un véhicule prioritaire utilise son avertisseur", "je suis devant l'AB6", "je rencontre un stop"], "correct": [0, 1, 3], "explanation": "On perd la priorité devant un stop, J2, feu rouge, AB7, un véhicule prioritaire, un agent, ou en débouchant d'un chemin de terre. Devant l'AB6 on est prioritaire."},
+    {"id": "q18", "theme": "feux-vehicule", "question": "Les feux de croisement (codes) éclairent au moins :", "options": ["30 m", "100 m", "150 m", "200 m"], "correct": [0], "explanation": "Codes : 30 m, utilisés en agglomération. Les feux de route (phares) éclairent 100 m."},
+    {"id": "q19", "theme": "feux-vehicule", "question": "Les feux de position (veilleuses) sont visibles à :", "options": ["30 m", "100 m", "150 m", "300 m"], "correct": [2], "explanation": "Les veilleuses n'éclairent pas mais sont visibles à 150 m."},
+    {"id": "q20", "theme": "feux-vehicule", "question": "En cas de panne, le triangle de présignalisation se place à :", "options": ["10 m", "30 m", "50 m", "100 m"], "correct": [1], "explanation": "Triangle placé à 30 m (visible à 100 m), puis on allume les feux de détresse."},
+    {"id": "q21", "theme": "feux-vehicule", "question": "Les feux de gabarit identifient les véhicules dont la largeur dépasse :", "options": ["1,80 m", "2,10 m", "2,50 m", "3 m"], "correct": [1], "explanation": "Feux de gabarit : largeur supérieure à 2,10 m ; blanc à l'avant, rouge à l'arrière."},
+    {"id": "q22", "theme": "marquages", "question": "Que peut-on faire sur une ligne continue ?", "options": ["La franchir pour dépasser", "La chevaucher", "Ni la franchir ni la chevaucher", "La franchir pour stationner"], "correct": [2], "explanation": "Il est interdit de franchir ET de chevaucher une ligne continue."},
+    {"id": "q23", "theme": "marquages", "question": "Les dimensions d'une ligne discontinue de séparation de voies sont :", "options": ["3 m de ligne, 1,33 m d'intervalle", "3 m de ligne, 10 m d'intervalle", "3 m de ligne, 3,50 m d'intervalle", "20 m de ligne, 6 m d'intervalle"], "correct": [1], "explanation": "Ligne discontinue : 3 m de ligne et 10 m d'intervalle ; franchissable pour dépasser."},
+    {"id": "q24", "theme": "marquages", "question": "La ligne d'avertissement (3 m / 1,33 m) :", "options": ["peut être franchie pour dépasser", "annonce une ligne continue et ne se franchit pas pour dépasser", "délimite la chaussée", "autorise le stationnement"], "correct": [1], "explanation": "Elle annonce une ligne continue ; on ne peut pas la franchir pour dépasser."},
+    {"id": "q25", "theme": "marquages", "question": "Sur un zébra (hachures blanches), il est :", "options": ["autorisé de s'arrêter", "interdit de s'arrêter, circuler et stationner", "autorisé de stationner", "autorisé de circuler seulement"], "correct": [1], "explanation": "Sur un zébra, il est interdit de s'arrêter, de circuler et de stationner."},
+    {"id": "q26", "theme": "marquages", "question": "Sur une ligne mixte, je peux dépasser :", "options": ["jamais", "toujours", "si la ligne discontinue est du côté de ma voie", "seulement de nuit"], "correct": [2], "explanation": "Ligne mixte : dépassement possible si la discontinue est du côté de ma voie."},
+    {"id": "q27", "theme": "depassement", "question": "Quand se rabattre après un dépassement ?", "options": ["Immédiatement après avoir déboîté", "Lorsque j'aperçois le véhicule dépassé dans mon rétroviseur intérieur", "Après 100 m", "Jamais tant que la voie est libre"], "correct": [1], "explanation": "On se rabat à droite quand on voit le véhicule dépassé dans le rétroviseur intérieur."},
+    {"id": "q28", "theme": "depassement", "question": "Quelle distance latérale pour dépasser un cycliste en agglomération ?", "options": ["0,50 m", "1 m", "1,50 m", "2 m"], "correct": [1], "explanation": "1 m en agglomération pour les deux-roues, piétons, cavaliers (1,50 m en campagne)."},
+    {"id": "q29", "theme": "depassement", "question": "Distance latérale pour dépasser un véhicule large (plus d'1 m), en agglomération comme en campagne :", "options": ["0,50 m", "1 m", "1,50 m", "2 m"], "correct": [0], "explanation": "0,50 m pour les véhicules dont la largeur dépasse 1 m."},
+    {"id": "q30", "theme": "stationnement", "question": "Le stationnement gênant impose une distance d'au moins ... de part et d'autre d'un arrêt de bus :", "options": ["5 m", "10 m", "15 m", "20 m"], "correct": [2], "explanation": "Au moins 15 m de part et d'autre des arrêts de bus, et sur les passages piétons."},
+    {"id": "q31", "theme": "stationnement", "question": "Le stationnement abusif, c'est stationner au même endroit plus de :", "options": ["24 heures", "3 jours", "7 jours", "30 jours"], "correct": [2], "explanation": "Stationnement abusif : plus de 7 jours au même endroit."},
+    {"id": "q32", "theme": "stationnement", "question": "Quelles sont les 3 façons de stationner ?", "options": ["En créneau", "En bataille", "En épis", "En diagonale libre"], "correct": [0, 1, 2], "explanation": "Les 3 façons : en créneau, en bataille et en épis."},
+    {"id": "q33", "theme": "balises", "question": "La balise J3 sert à :", "options": ["baliser un virage enneigé", "rendre une intersection visible (priorité à droite)", "délimiter la chaussée", "signaler un vent latéral"], "correct": [1], "explanation": "J3 : balise d'intersection pour rendre l'intersection visible (priorité à droite)."},
+    {"id": "q34", "theme": "balises", "question": "Les balises de passage à niveau sont placées à :", "options": ["25, 50, 75 m", "50, 100, 150 m", "100, 200, 300 m", "10, 20, 30 m"], "correct": [1], "explanation": "Elles sont placées à 50 m, 100 m et 150 m du rail."},
+    {"id": "q35", "theme": "autoroute", "question": "La bande d'arrêt d'urgence a pour dimensions :", "options": ["3 m de ligne, 10 m d'intervalle", "20 m de ligne, 6 m d'intervalle", "3 m de ligne, 3,50 m d'intervalle", "10 m de ligne, 3 m d'intervalle"], "correct": [1], "explanation": "Bande d'arrêt d'urgence : 20 m de ligne et 6 m d'intervalle."},
+    {"id": "q36", "theme": "autoroute", "question": "Une bifurcation autoroutière, c'est :", "options": ["la jonction de 2 autoroutes en une", "la séparation de l'autoroute en 2 branches", "une aire de repos", "une sortie unique"], "correct": [1], "explanation": "Bifurcation = séparation en 2 branches ; jonction = 2 autoroutes qui se joignent."},
+    {"id": "q37", "theme": "distances", "question": "Distance de sécurité à 60 km/h (dizaines × 3) :", "options": ["12 m", "18 m", "24 m", "36 m"], "correct": [1], "explanation": "6 × 3 = 18 m."},
+    {"id": "q38", "theme": "distances", "question": "Distance de freinage à 50 km/h sur sol sec (dizaines × dizaines) :", "options": ["10 m", "15 m", "25 m", "50 m"], "correct": [2], "explanation": "5 × 5 = 25 m ; sur chaussée mouillée, on multiplie par 2."},
+    {"id": "q39", "theme": "distances", "question": "Sur chaussée mouillée, la distance de freinage est multipliée par :", "options": ["1,5", "2", "3", "elle ne change pas"], "correct": [1], "explanation": "Distance de freinage × 2 sur chaussée mouillée (la distance d'arrêt × 1,5 en pluie)."},
+    {"id": "q40", "theme": "accident", "question": "Face à un blessé, il faut :", "options": ["lui donner de l'eau", "le transporter dans sa voiture", "ne pas retirer le casque d'un motard", "tirer sur ses membres pour le dégager"], "correct": [2], "explanation": "Ne jamais retirer le casque d'un motard, ni donner à boire, ni transporter, ni tirer les membres."},
+    {"id": "q41", "theme": "accident", "question": "En cas d'accident, qui alerter en campagne ?", "options": ["La police", "La gendarmerie", "Les pompiers uniquement", "La mairie"], "correct": [1], "explanation": "La gendarmerie en campagne, la police en agglomération."},
+    {"id": "q42", "theme": "suspension-permis", "question": "Quels comportements peuvent entraîner une suspension du permis ?", "options": ["Délit de fuite", "Conduite en état d'ivresse", "Respect de la signalisation", "Circulation en sens interdit"], "correct": [0, 1, 3], "explanation": "Suspension : délit de fuite, ivresse, sens interdit, homicide involontaire, non-respect de l'assurance, etc."},
+    {"id": "q43", "theme": "pieces-vehicule", "question": "Quel document est la « carte d'identité » du véhicule ?", "options": ["La vignette", "La carte grise", "L'assurance", "La visite technique"], "correct": [1], "explanation": "La carte grise est la carte d'identité du véhicule."},
+    {"id": "q44", "theme": "pieces-vehicule", "question": "La visite technique d'un véhicule neuf devient obligatoire à partir de :", "options": ["1 an", "2 ans", "3 ans", "5 ans"], "correct": [2], "explanation": "Renouvelée tous les ans à partir de 3 ans après la mise en circulation d'un véhicule neuf."},
+    {"id": "q45", "theme": "agents", "question": "Un agent de profil signifie :", "options": ["je m'arrête", "je m'engage", "je ralentis", "je fais demi-tour"], "correct": [1], "explanation": "Agent de profil : je m'engage. Bras levé, de face ou de dos : je m'arrête."},
+    {"id": "q46", "theme": "agents", "question": "Les gestes d'un agent qui règle la circulation :", "options": ["priment sur les feux et les panneaux", "sont facultatifs", "ne comptent que la nuit", "s'appliquent seulement aux piétons"], "correct": [0], "explanation": "Les signes de l'agent prévalent sur toute signalisation (marquage, panneau ou feu)."},
+    {"id": "q47", "theme": "derapage", "question": "En cas de dérapage, il faut :", "options": ["freiner fortement", "braquer du côté où l'arrière dérape", "accélérer légèrement", "lâcher le volant"], "correct": [1, 2], "explanation": "Éviter de freiner, accélérer légèrement pour l'adhérence, et braquer du côté où l'arrière dérape."},
+    {"id": "q48", "theme": "conduite-demarrage", "question": "« Débrayer » signifie :", "options": ["relever la pédale d'embrayage", "enfoncer la pédale d'embrayage", "appuyer sur le frein", "accélérer"], "correct": [1], "explanation": "Débrayer = enfoncer la pédale d'embrayage ; embrayer = la relever."},
+    {"id": "q49", "theme": "conduite-demarrage", "question": "En cas de calage, la première action est de :", "options": ["passer au point mort", "rester en première et débrayer à fond", "accélérer fortement", "tirer le frein à main"], "correct": [1], "explanation": "Rester en première, débrayer à fond, remettre la clé puis redémarrer."},
+    {"id": "q50", "theme": "creneau", "question": "À quelle distance actionner le clignotant avant un créneau ?", "options": ["5 m", "environ 20 m", "50 m", "100 m"], "correct": [1], "explanation": "Clignotant environ 20 m avant d'arriver au niveau de l'emplacement."}
+  ]
+}
