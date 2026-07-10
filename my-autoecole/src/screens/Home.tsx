@@ -59,7 +59,7 @@ export function Home() {
           Choisis un défi — chaque série est générée à la volée depuis le cours.
         </p>
 
-        <div className="mt-4 grid gap-3 sm:grid-cols-2">
+        <div className="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-2">
           {MODES.map((m) => {
             const Icon = MODE_ICON[m.kind];
             return (
@@ -67,7 +67,7 @@ export function Home() {
                 key={m.kind}
                 type="button"
                 onClick={() => navigate(`/play/${m.kind}`)}
-                className="flex w-full items-center gap-4 rounded-[20px] bg-surface p-4 text-left shadow-soft transition-all duration-150 hover:-translate-y-0.5 hover:shadow-lift active:scale-[0.99]"
+                className="flex w-full items-center gap-4 rounded-xl2 bg-surface p-4 text-left shadow-soft transition-all duration-150 hover:-translate-y-0.5 hover:shadow-lift active:scale-[0.99]"
               >
                 <span
                   className={`grid size-12 flex-none place-items-center rounded-2xl ${MODE_ACCENT[m.kind]}`}
