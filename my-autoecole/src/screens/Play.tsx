@@ -1,7 +1,7 @@
 /* Orchestration d'une session : construit les questions, précharge les
    images (écran de chargement) puis joue la session et affiche le résultat. */
 import { useCallback, useEffect, useState } from "react";
-import { useNavigate, useParams } from "react-router-dom";
+import { useNavigate, useParams, useSearchParams } from "react-router-dom";
 import { modeByKind } from "../domain/modes";
 import { collectImages } from "../domain/challenge";
 import { useSession } from "../engine/sessionStore";
@@ -12,6 +12,8 @@ import { Loading } from "./Loading";
 
 export function Play() {
   const { kind = "" } = useParams();
+  const [searchParams] = useSearchParams();
+  const themeId = searchParams.get("theme") ?? undefined;
   const navigate = useNavigate();
   const status = useSession((s) => s.status);
   const start = useSession((s) => s.start);
@@ -25,13 +27,13 @@ export function Play() {
     if (!mode) return;
     setLoading(true);
     setProgress(0);
-    const questions = mode.build({});
+    const questions = mode.build({ themeId });
     await preloadImages(collectImages(questions), 8000, (l, t) =>
       setProgress(t ? l / t : 1),
     );
     start(mode.kind, mode.title, questions, mode.secondsPerQuestion ?? null);
     setLoading(false);
-  }, [mode, start]);
+  }, [mode, start, themeId]);
 
   useEffect(() => {
     if (!mode) {
@@ -41,7 +43,7 @@ export function Play() {
     begin();
     return () => reset();
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [kind]);
+  }, [kind, themeId]);
 
   if (!mode) return null;
   if (loading) return <Loading title={mode.title} progress={progress} />;

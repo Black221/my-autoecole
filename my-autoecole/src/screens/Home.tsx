@@ -1,6 +1,6 @@
 /* Accueil : hero + statistiques + catalogue des modes de challenge. */
 import { useNavigate } from "react-router-dom";
-import { ChevronRight } from "lucide-react";
+import { ChevronRight, GraduationCap } from "lucide-react";
 import { MODES } from "../domain/modes";
 import { MODE_ICON } from "../ui/modeIcons";
 import dataset from "../data";
@@ -35,7 +35,24 @@ export function Home() {
       </Hero>
 
       <div className="px-5 pt-6">
-        <h2 className="text-[clamp(20px,5.5vw,24px)] font-bold">
+        <button
+          type="button"
+          onClick={() => navigate("/cours")}
+          className="flex w-full items-center gap-4 overflow-hidden rounded-[20px] bg-linear-to-br from-teranga to-[#c9601a] p-4 text-left text-white shadow-soft transition-all duration-150 hover:-translate-y-0.5 hover:shadow-lift active:scale-[0.99]"
+        >
+          <span className="grid size-12 flex-none place-items-center rounded-2xl bg-white/20">
+            <GraduationCap size={24} />
+          </span>
+          <div className="min-w-0 flex-1">
+            <div className="font-semibold">Apprendre le cours</div>
+            <p className="mt-0.5 truncate text-[13px] text-white/85">
+              {dataset.themes.length} fiches : règles, vitesses, priorités…
+            </p>
+          </div>
+          <ChevronRight size={20} className="flex-none text-white/80" />
+        </button>
+
+        <h2 className="mt-6 text-[clamp(20px,5.5vw,24px)] font-bold">
           Modes d'entraînement
         </h2>
         <p className="mt-1 text-sm text-ink-soft">
