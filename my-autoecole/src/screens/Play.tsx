@@ -1,11 +1,14 @@
-/* Orchestration d'une session : construit les questions depuis le mode,
-   affiche le Runner puis les Résultats. */
-import { useCallback, useEffect } from "react";
+/* Orchestration d'une session : construit les questions, précharge les
+   images (écran de chargement) puis joue la session et affiche le résultat. */
+import { useCallback, useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { modeByKind } from "../domain/modes";
+import { collectImages } from "../domain/challenge";
 import { useSession } from "../engine/sessionStore";
+import { preloadImages } from "../engine/preload";
 import { ChallengeRunner } from "../engine/ChallengeRunner";
 import { Results } from "./Results";
+import { Loading } from "./Loading";
 
 export function Play() {
   const { kind = "" } = useParams();
@@ -15,9 +18,19 @@ export function Play() {
   const reset = useSession((s) => s.reset);
   const mode = modeByKind(kind);
 
-  const begin = useCallback(() => {
+  const [loading, setLoading] = useState(true);
+  const [progress, setProgress] = useState(0);
+
+  const begin = useCallback(async () => {
     if (!mode) return;
-    start(mode.kind, mode.title, mode.build({}));
+    setLoading(true);
+    setProgress(0);
+    const questions = mode.build({});
+    await preloadImages(collectImages(questions), 8000, (l, t) =>
+      setProgress(t ? l / t : 1),
+    );
+    start(mode.kind, mode.title, questions, mode.secondsPerQuestion ?? null);
+    setLoading(false);
   }, [mode, start]);
 
   useEffect(() => {
@@ -31,7 +44,7 @@ export function Play() {
   }, [kind]);
 
   if (!mode) return null;
-
+  if (loading) return <Loading title={mode.title} progress={progress} />;
   if (status === "finished") return <Results onReplay={begin} />;
   if (status === "running")
     return (

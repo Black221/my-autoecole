@@ -14,8 +14,15 @@ interface SessionState {
   index: number;
   results: Record<string, Evaluation>;
   score: ScoreState;
+  /** Temps imparti par question (secondes) ou null si pas de chrono. */
+  secondsPerQuestion: number | null;
 
-  start(kind: ChallengeKind, title: string, questions: Question[]): void;
+  start(
+    kind: ChallengeKind,
+    title: string,
+    questions: Question[],
+    secondsPerQuestion?: number | null,
+  ): void;
   /** Évalue et enregistre la réponse à la question courante. */
   commit(selected: Answer): Evaluation;
   next(): void;
@@ -30,8 +37,9 @@ export const useSession = create<SessionState>((set, get) => ({
   index: 0,
   results: {},
   score: emptyScore,
+  secondsPerQuestion: null,
 
-  start(kind, title, questions) {
+  start(kind, title, questions, secondsPerQuestion = null) {
     set({
       status: questions.length ? "running" : "finished",
       modeKind: kind,
@@ -40,6 +48,7 @@ export const useSession = create<SessionState>((set, get) => ({
       index: 0,
       results: {},
       score: emptyScore,
+      secondsPerQuestion,
     });
   },
 
@@ -73,6 +82,7 @@ export const useSession = create<SessionState>((set, get) => ({
       index: 0,
       results: {},
       score: emptyScore,
+      secondsPerQuestion: null,
     });
   },
 }));

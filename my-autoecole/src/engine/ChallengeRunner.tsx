@@ -1,7 +1,7 @@
 /* Joue n'importe quelle Question : dispatch par format, gère la
-   sélection, la validation, le feedback et l'enchaînement. */
+   sélection, la validation, le chrono, le feedback et l'enchaînement. */
 import { useEffect, useState } from "react";
-import { ArrowRight, CheckCircle2, Flag, X, XCircle } from "lucide-react";
+import { ArrowRight, CheckCircle2, Clock, Flag, X, XCircle } from "lucide-react";
 import { useSession } from "./sessionStore";
 import { QcmText } from "./renderers/QcmText";
 import { QcmImage } from "./renderers/QcmImage";
@@ -9,18 +9,41 @@ import { Flashcard } from "./renderers/Flashcard";
 import { Button, ProgressBar } from "../ui/primitives";
 
 export function ChallengeRunner({ onExit }: { onExit: () => void }) {
-  const { questions, index, commit, next } = useSession();
+  const { questions, index, commit, next, secondsPerQuestion } = useSession();
   const q = questions[index];
 
   const [selected, setSelected] = useState<string[]>([]);
   const [revealed, setRevealed] = useState(false);
   const [ok, setOk] = useState(false);
+  const [remaining, setRemaining] = useState<number | null>(null);
 
+  const timed = secondsPerQuestion != null && q?.format !== "flashcard";
+
+  // Réinitialise l'état + le chrono à chaque nouvelle question.
   useEffect(() => {
     setSelected([]);
     setRevealed(false);
     setOk(false);
+    setRemaining(timed ? secondsPerQuestion! : null);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [q?.id]);
+
+  // Décompte seconde par seconde (tant que non révélé).
+  useEffect(() => {
+    if (!timed || revealed || remaining == null || remaining <= 0) return;
+    const t = setTimeout(() => setRemaining((r) => (r == null ? null : r - 1)), 1000);
+    return () => clearTimeout(t);
+  }, [remaining, revealed, timed]);
+
+  // Temps écoulé → validation automatique.
+  useEffect(() => {
+    if (timed && !revealed && remaining === 0) {
+      const ev = commit(selected);
+      setOk(ev.correct);
+      setRevealed(true);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [remaining]);
 
   if (!q) return null;
 
@@ -48,6 +71,12 @@ export function ChallengeRunner({ onExit }: { onExit: () => void }) {
     next();
   };
 
+  const urgent = remaining != null && remaining <= 5 && !revealed;
+  const mmss =
+    remaining == null
+      ? ""
+      : `${Math.floor(remaining / 60)}:${String(remaining % 60).padStart(2, "0")}`;
+
   return (
     <>
       <div className="flex items-center gap-3 px-5 pb-3 pt-[calc(1rem+env(safe-area-inset-top))]">
@@ -59,9 +88,21 @@ export function ChallengeRunner({ onExit }: { onExit: () => void }) {
           <X size={18} />
         </button>
         <ProgressBar value={total ? index / total : 0} />
-        <span className="flex-none text-sm font-semibold text-muted">
-          {index + 1}/{total}
-        </span>
+        <div className="flex flex-none flex-col items-end gap-1">
+          {timed && (
+            <span
+              className={`inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-xs font-bold tabular-nums transition-colors ${
+                urgent ? "bg-danger-light text-danger" : "bg-brand-light text-brand-dark"
+              }`}
+            >
+              <Clock size={12} strokeWidth={2.5} />
+              {mmss}
+            </span>
+          )}
+          <span className="text-[11px] font-semibold text-muted">
+            {index + 1}/{total}
+          </span>
+        </div>
       </div>
 
       <div className="flex-1 px-5 pb-6">
@@ -71,28 +112,16 @@ export function ChallengeRunner({ onExit }: { onExit: () => void }) {
           {q.format === "flashcard" ? (
             <Flashcard question={q} onEval={onFlashEval} />
           ) : q.format === "qcm-image" ? (
-            <QcmImage
-              question={q}
-              selected={selected}
-              revealed={revealed}
-              onToggle={toggle}
-            />
+            <QcmImage question={q} selected={selected} revealed={revealed} onToggle={toggle} />
           ) : (
-            <QcmText
-              question={q}
-              selected={selected}
-              revealed={revealed}
-              onToggle={toggle}
-            />
+            <QcmText question={q} selected={selected} revealed={revealed} onToggle={toggle} />
           )}
         </div>
 
         {revealed && q.explanation && (
           <div
             className={`mt-4 flex gap-2 rounded-[20px] p-4 text-sm leading-relaxed animate-fade-up ${
-              ok
-                ? "bg-brand-light text-brand-dark"
-                : "bg-danger-light text-[#8f1419]"
+              ok ? "bg-brand-light text-brand-dark" : "bg-danger-light text-[#8f1419]"
             }`}
           >
             <span className="mt-0.5 flex-none">
@@ -100,7 +129,7 @@ export function ChallengeRunner({ onExit }: { onExit: () => void }) {
             </span>
             <div>
               <b className="mb-0.5 block">
-                {ok ? "Bonne réponse" : "Réponse incorrecte"}
+                {ok ? "Bonne réponse" : remaining === 0 ? "Temps écoulé" : "Réponse incorrecte"}
               </b>
               {q.explanation}
             </div>

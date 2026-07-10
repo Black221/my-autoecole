@@ -11,15 +11,15 @@ export const examBlanc: ChallengeMode = {
   title: "Examen blanc",
   tagline: "Les vraies séries photo, correction officielle",
   emoji: "📝",
-  // Les images de questions (120 Mo) sont référencées mais pas copiées
-  // dans /public — voir DATASET.md (copier `tests/` vers `public/tests/`).
-  needsAssets: true,
-  build({ count = 10, categoryKey } = {}) {
+  secondsPerQuestion: 45,
+  build({ count, categoryKey } = {}) {
     // categoryKey sert ici d'id de série optionnel (ex: "B03")
     const serie = categoryKey
       ? series.find((s) => s.id === categoryKey) ?? pickOne(series)
       : pickOne(series);
-    return serie.questions.slice(0, count).map<Question>((q) => {
+    // Par défaut : toute la série (25 questions), pas de troncature.
+    const qs = count ? serie.questions.slice(0, count) : serie.questions;
+    return qs.map<Question>((q) => {
       const choices: Choice[] = LETTERS.map((letter) => ({
         id: uid("c"),
         letter,
