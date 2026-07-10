@@ -1,5 +1,28 @@
 /* Primitives UI Genfac — Tailwind v4 (web, mobile-first). */
 import type { ButtonHTMLAttributes, ReactNode } from "react";
+import { ChevronLeft } from "lucide-react";
+
+/* ---- Barre de retour ---- */
+export function TopBar({
+  onBack,
+  title,
+}: {
+  onBack: () => void;
+  title?: string;
+}) {
+  return (
+    <div className="flex items-center gap-3 px-5 pb-2 pt-[calc(1rem+env(safe-area-inset-top))]">
+      <button
+        onClick={onBack}
+        aria-label="Retour"
+        className="grid size-10 flex-none place-items-center rounded-full bg-surface text-ink-soft shadow-soft active:scale-95"
+      >
+        <ChevronLeft size={20} />
+      </button>
+      {title && <span className="truncate font-semibold">{title}</span>}
+    </div>
+  );
+}
 
 /* ---- App shell + Screen ---- */
 export function AppShell({ children }: { children: ReactNode }) {

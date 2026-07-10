@@ -83,6 +83,8 @@ export interface BuildOptions {
   count?: number;
   /** Restreindre à une catégorie de panneaux (selon le mode). */
   categoryKey?: string;
+  /** Restreindre le quiz de cours à un thème (id de thème). */
+  themeId?: string;
 }
 
 export interface ChallengeMode {

@@ -9,8 +9,9 @@ export const coursQuiz: ChallengeMode = {
   tagline: "Règles, vitesses, priorités, distances…",
   emoji: "📚",
   secondsPerQuestion: 30,
-  build({ count = 12 } = {}) {
-    const picks = sample(quizCours, count);
+  build({ count = 12, themeId } = {}) {
+    const pool = themeId ? quizCours.filter((q) => q.theme === themeId) : quizCours;
+    const picks = sample(pool, count);
     return picks.map<Question>((q) => {
       const choices: Choice[] = shuffle(
         q.options.map((opt, i) => ({

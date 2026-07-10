@@ -1,0 +1,48 @@
+/* Association thème de cours → icône lucide. */
+import {
+  ArrowRightLeft,
+  Ban,
+  Car,
+  CornerUpLeft,
+  Gauge,
+  IdCard,
+  Info,
+  KeyRound,
+  Lightbulb,
+  Milestone,
+  Route,
+  Ruler,
+  Shapes,
+  SignpostBig,
+  SquareParking,
+  TriangleAlert,
+  Users,
+  Waves,
+  Waypoints,
+  BookOpen,
+  type LucideIcon,
+} from "lucide-react";
+
+export const THEME_ICON: Record<string, LucideIcon> = {
+  generalites: Info,
+  vitesses: Gauge,
+  "categories-panneaux": Shapes,
+  priorites: Milestone,
+  "feux-vehicule": Lightbulb,
+  marquages: Waypoints,
+  depassement: ArrowRightLeft,
+  "tourner-gauche": CornerUpLeft,
+  stationnement: SquareParking,
+  balises: SignpostBig,
+  autoroute: Route,
+  distances: Ruler,
+  accident: TriangleAlert,
+  "suspension-permis": Ban,
+  "pieces-vehicule": IdCard,
+  agents: Users,
+  derapage: Waves,
+  "conduite-demarrage": KeyRound,
+  creneau: Car,
+};
+
+export const themeIcon = (id: string): LucideIcon => THEME_ICON[id] ?? BookOpen;
